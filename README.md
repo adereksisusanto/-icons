@@ -1,4 +1,4 @@
-# Icons form web
+# Icons from web
 
 ## Instalation
 
