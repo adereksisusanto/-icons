@@ -1,0 +1,3975 @@
+.#{$bi-css-prefix}-alarm-fill::before {
+  content: "\f101";
+}
+.#{$bi-css-prefix}-alarm::before {
+  content: "\f102";
+}
+.#{$bi-css-prefix}-align-bottom::before {
+  content: "\f103";
+}
+.#{$bi-css-prefix}-align-center::before {
+  content: "\f104";
+}
+.#{$bi-css-prefix}-align-end::before {
+  content: "\f105";
+}
+.#{$bi-css-prefix}-align-middle::before {
+  content: "\f106";
+}
+.#{$bi-css-prefix}-align-start::before {
+  content: "\f107";
+}
+.#{$bi-css-prefix}-align-top::before {
+  content: "\f108";
+}
+.#{$bi-css-prefix}-alt::before {
+  content: "\f109";
+}
+.#{$bi-css-prefix}-app-indicator::before {
+  content: "\f10a";
+}
+.#{$bi-css-prefix}-app::before {
+  content: "\f10b";
+}
+.#{$bi-css-prefix}-archive-fill::before {
+  content: "\f10c";
+}
+.#{$bi-css-prefix}-archive::before {
+  content: "\f10d";
+}
+.#{$bi-css-prefix}-arrow-90deg-down::before {
+  content: "\f10e";
+}
+.#{$bi-css-prefix}-arrow-90deg-left::before {
+  content: "\f10f";
+}
+.#{$bi-css-prefix}-arrow-90deg-right::before {
+  content: "\f110";
+}
+.#{$bi-css-prefix}-arrow-90deg-up::before {
+  content: "\f111";
+}
+.#{$bi-css-prefix}-arrow-bar-down::before {
+  content: "\f112";
+}
+.#{$bi-css-prefix}-arrow-bar-left::before {
+  content: "\f113";
+}
+.#{$bi-css-prefix}-arrow-bar-right::before {
+  content: "\f114";
+}
+.#{$bi-css-prefix}-arrow-bar-up::before {
+  content: "\f115";
+}
+.#{$bi-css-prefix}-arrow-clockwise::before {
+  content: "\f116";
+}
+.#{$bi-css-prefix}-arrow-counterclockwise::before {
+  content: "\f117";
+}
+.#{$bi-css-prefix}-arrow-down-circle-fill::before {
+  content: "\f118";
+}
+.#{$bi-css-prefix}-arrow-down-circle::before {
+  content: "\f119";
+}
+.#{$bi-css-prefix}-arrow-down-left-circle-fill::before {
+  content: "\f11a";
+}
+.#{$bi-css-prefix}-arrow-down-left-circle::before {
+  content: "\f11b";
+}
+.#{$bi-css-prefix}-arrow-down-left-square-fill::before {
+  content: "\f11c";
+}
+.#{$bi-css-prefix}-arrow-down-left-square::before {
+  content: "\f11d";
+}
+.#{$bi-css-prefix}-arrow-down-left::before {
+  content: "\f11e";
+}
+.#{$bi-css-prefix}-arrow-down-right-circle-fill::before {
+  content: "\f11f";
+}
+.#{$bi-css-prefix}-arrow-down-right-circle::before {
+  content: "\f120";
+}
+.#{$bi-css-prefix}-arrow-down-right-square-fill::before {
+  content: "\f121";
+}
+.#{$bi-css-prefix}-arrow-down-right-square::before {
+  content: "\f122";
+}
+.#{$bi-css-prefix}-arrow-down-right::before {
+  content: "\f123";
+}
+.#{$bi-css-prefix}-arrow-down-short::before {
+  content: "\f124";
+}
+.#{$bi-css-prefix}-arrow-down-square-fill::before {
+  content: "\f125";
+}
+.#{$bi-css-prefix}-arrow-down-square::before {
+  content: "\f126";
+}
+.#{$bi-css-prefix}-arrow-down-up::before {
+  content: "\f127";
+}
+.#{$bi-css-prefix}-arrow-down::before {
+  content: "\f128";
+}
+.#{$bi-css-prefix}-arrow-left-circle-fill::before {
+  content: "\f129";
+}
+.#{$bi-css-prefix}-arrow-left-circle::before {
+  content: "\f12a";
+}
+.#{$bi-css-prefix}-arrow-left-right::before {
+  content: "\f12b";
+}
+.#{$bi-css-prefix}-arrow-left-short::before {
+  content: "\f12c";
+}
+.#{$bi-css-prefix}-arrow-left-square-fill::before {
+  content: "\f12d";
+}
+.#{$bi-css-prefix}-arrow-left-square::before {
+  content: "\f12e";
+}
+.#{$bi-css-prefix}-arrow-left::before {
+  content: "\f12f";
+}
+.#{$bi-css-prefix}-arrow-repeat::before {
+  content: "\f130";
+}
+.#{$bi-css-prefix}-arrow-return-left::before {
+  content: "\f131";
+}
+.#{$bi-css-prefix}-arrow-return-right::before {
+  content: "\f132";
+}
+.#{$bi-css-prefix}-arrow-right-circle-fill::before {
+  content: "\f133";
+}
+.#{$bi-css-prefix}-arrow-right-circle::before {
+  content: "\f134";
+}
+.#{$bi-css-prefix}-arrow-right-short::before {
+  content: "\f135";
+}
+.#{$bi-css-prefix}-arrow-right-square-fill::before {
+  content: "\f136";
+}
+.#{$bi-css-prefix}-arrow-right-square::before {
+  content: "\f137";
+}
+.#{$bi-css-prefix}-arrow-right::before {
+  content: "\f138";
+}
+.#{$bi-css-prefix}-arrow-up-circle-fill::before {
+  content: "\f139";
+}
+.#{$bi-css-prefix}-arrow-up-circle::before {
+  content: "\f13a";
+}
+.#{$bi-css-prefix}-arrow-up-left-circle-fill::before {
+  content: "\f13b";
+}
+.#{$bi-css-prefix}-arrow-up-left-circle::before {
+  content: "\f13c";
+}
+.#{$bi-css-prefix}-arrow-up-left-square-fill::before {
+  content: "\f13d";
+}
+.#{$bi-css-prefix}-arrow-up-left-square::before {
+  content: "\f13e";
+}
+.#{$bi-css-prefix}-arrow-up-left::before {
+  content: "\f13f";
+}
+.#{$bi-css-prefix}-arrow-up-right-circle-fill::before {
+  content: "\f140";
+}
+.#{$bi-css-prefix}-arrow-up-right-circle::before {
+  content: "\f141";
+}
+.#{$bi-css-prefix}-arrow-up-right-square-fill::before {
+  content: "\f142";
+}
+.#{$bi-css-prefix}-arrow-up-right-square::before {
+  content: "\f143";
+}
+.#{$bi-css-prefix}-arrow-up-right::before {
+  content: "\f144";
+}
+.#{$bi-css-prefix}-arrow-up-short::before {
+  content: "\f145";
+}
+.#{$bi-css-prefix}-arrow-up-square-fill::before {
+  content: "\f146";
+}
+.#{$bi-css-prefix}-arrow-up-square::before {
+  content: "\f147";
+}
+.#{$bi-css-prefix}-arrow-up::before {
+  content: "\f148";
+}
+.#{$bi-css-prefix}-arrows-angle-contract::before {
+  content: "\f149";
+}
+.#{$bi-css-prefix}-arrows-angle-expand::before {
+  content: "\f14a";
+}
+.#{$bi-css-prefix}-arrows-collapse::before {
+  content: "\f14b";
+}
+.#{$bi-css-prefix}-arrows-expand::before {
+  content: "\f14c";
+}
+.#{$bi-css-prefix}-arrows-fullscreen::before {
+  content: "\f14d";
+}
+.#{$bi-css-prefix}-arrows-move::before {
+  content: "\f14e";
+}
+.#{$bi-css-prefix}-aspect-ratio-fill::before {
+  content: "\f14f";
+}
+.#{$bi-css-prefix}-aspect-ratio::before {
+  content: "\f150";
+}
+.#{$bi-css-prefix}-asterisk::before {
+  content: "\f151";
+}
+.#{$bi-css-prefix}-at::before {
+  content: "\f152";
+}
+.#{$bi-css-prefix}-award-fill::before {
+  content: "\f153";
+}
+.#{$bi-css-prefix}-award::before {
+  content: "\f154";
+}
+.#{$bi-css-prefix}-back::before {
+  content: "\f155";
+}
+.#{$bi-css-prefix}-backspace-fill::before {
+  content: "\f156";
+}
+.#{$bi-css-prefix}-backspace-reverse-fill::before {
+  content: "\f157";
+}
+.#{$bi-css-prefix}-backspace-reverse::before {
+  content: "\f158";
+}
+.#{$bi-css-prefix}-backspace::before {
+  content: "\f159";
+}
+.#{$bi-css-prefix}-badge-3d-fill::before {
+  content: "\f15a";
+}
+.#{$bi-css-prefix}-badge-3d::before {
+  content: "\f15b";
+}
+.#{$bi-css-prefix}-badge-4k-fill::before {
+  content: "\f15c";
+}
+.#{$bi-css-prefix}-badge-4k::before {
+  content: "\f15d";
+}
+.#{$bi-css-prefix}-badge-8k-fill::before {
+  content: "\f15e";
+}
+.#{$bi-css-prefix}-badge-8k::before {
+  content: "\f15f";
+}
+.#{$bi-css-prefix}-badge-ad-fill::before {
+  content: "\f160";
+}
+.#{$bi-css-prefix}-badge-ad::before {
+  content: "\f161";
+}
+.#{$bi-css-prefix}-badge-ar-fill::before {
+  content: "\f162";
+}
+.#{$bi-css-prefix}-badge-ar::before {
+  content: "\f163";
+}
+.#{$bi-css-prefix}-badge-cc-fill::before {
+  content: "\f164";
+}
+.#{$bi-css-prefix}-badge-cc::before {
+  content: "\f165";
+}
+.#{$bi-css-prefix}-badge-hd-fill::before {
+  content: "\f166";
+}
+.#{$bi-css-prefix}-badge-hd::before {
+  content: "\f167";
+}
+.#{$bi-css-prefix}-badge-tm-fill::before {
+  content: "\f168";
+}
+.#{$bi-css-prefix}-badge-tm::before {
+  content: "\f169";
+}
+.#{$bi-css-prefix}-badge-vo-fill::before {
+  content: "\f16a";
+}
+.#{$bi-css-prefix}-badge-vo::before {
+  content: "\f16b";
+}
+.#{$bi-css-prefix}-badge-vr-fill::before {
+  content: "\f16c";
+}
+.#{$bi-css-prefix}-badge-vr::before {
+  content: "\f16d";
+}
+.#{$bi-css-prefix}-badge-wc-fill::before {
+  content: "\f16e";
+}
+.#{$bi-css-prefix}-badge-wc::before {
+  content: "\f16f";
+}
+.#{$bi-css-prefix}-bag-check-fill::before {
+  content: "\f170";
+}
+.#{$bi-css-prefix}-bag-check::before {
+  content: "\f171";
+}
+.#{$bi-css-prefix}-bag-dash-fill::before {
+  content: "\f172";
+}
+.#{$bi-css-prefix}-bag-dash::before {
+  content: "\f173";
+}
+.#{$bi-css-prefix}-bag-fill::before {
+  content: "\f174";
+}
+.#{$bi-css-prefix}-bag-plus-fill::before {
+  content: "\f175";
+}
+.#{$bi-css-prefix}-bag-plus::before {
+  content: "\f176";
+}
+.#{$bi-css-prefix}-bag-x-fill::before {
+  content: "\f177";
+}
+.#{$bi-css-prefix}-bag-x::before {
+  content: "\f178";
+}
+.#{$bi-css-prefix}-bag::before {
+  content: "\f179";
+}
+.#{$bi-css-prefix}-bar-chart-fill::before {
+  content: "\f17a";
+}
+.#{$bi-css-prefix}-bar-chart-line-fill::before {
+  content: "\f17b";
+}
+.#{$bi-css-prefix}-bar-chart-line::before {
+  content: "\f17c";
+}
+.#{$bi-css-prefix}-bar-chart-steps::before {
+  content: "\f17d";
+}
+.#{$bi-css-prefix}-bar-chart::before {
+  content: "\f17e";
+}
+.#{$bi-css-prefix}-basket-fill::before {
+  content: "\f17f";
+}
+.#{$bi-css-prefix}-basket::before {
+  content: "\f180";
+}
+.#{$bi-css-prefix}-basket2-fill::before {
+  content: "\f181";
+}
+.#{$bi-css-prefix}-basket2::before {
+  content: "\f182";
+}
+.#{$bi-css-prefix}-basket3-fill::before {
+  content: "\f183";
+}
+.#{$bi-css-prefix}-basket3::before {
+  content: "\f184";
+}
+.#{$bi-css-prefix}-battery-charging::before {
+  content: "\f185";
+}
+.#{$bi-css-prefix}-battery-full::before {
+  content: "\f186";
+}
+.#{$bi-css-prefix}-battery-half::before {
+  content: "\f187";
+}
+.#{$bi-css-prefix}-battery::before {
+  content: "\f188";
+}
+.#{$bi-css-prefix}-bell-fill::before {
+  content: "\f189";
+}
+.#{$bi-css-prefix}-bell::before {
+  content: "\f18a";
+}
+.#{$bi-css-prefix}-bezier::before {
+  content: "\f18b";
+}
+.#{$bi-css-prefix}-bezier2::before {
+  content: "\f18c";
+}
+.#{$bi-css-prefix}-bicycle::before {
+  content: "\f18d";
+}
+.#{$bi-css-prefix}-binoculars-fill::before {
+  content: "\f18e";
+}
+.#{$bi-css-prefix}-binoculars::before {
+  content: "\f18f";
+}
+.#{$bi-css-prefix}-blockquote-left::before {
+  content: "\f190";
+}
+.#{$bi-css-prefix}-blockquote-right::before {
+  content: "\f191";
+}
+.#{$bi-css-prefix}-book-fill::before {
+  content: "\f192";
+}
+.#{$bi-css-prefix}-book-half::before {
+  content: "\f193";
+}
+.#{$bi-css-prefix}-book::before {
+  content: "\f194";
+}
+.#{$bi-css-prefix}-bookmark-check-fill::before {
+  content: "\f195";
+}
+.#{$bi-css-prefix}-bookmark-check::before {
+  content: "\f196";
+}
+.#{$bi-css-prefix}-bookmark-dash-fill::before {
+  content: "\f197";
+}
+.#{$bi-css-prefix}-bookmark-dash::before {
+  content: "\f198";
+}
+.#{$bi-css-prefix}-bookmark-fill::before {
+  content: "\f199";
+}
+.#{$bi-css-prefix}-bookmark-heart-fill::before {
+  content: "\f19a";
+}
+.#{$bi-css-prefix}-bookmark-heart::before {
+  content: "\f19b";
+}
+.#{$bi-css-prefix}-bookmark-plus-fill::before {
+  content: "\f19c";
+}
+.#{$bi-css-prefix}-bookmark-plus::before {
+  content: "\f19d";
+}
+.#{$bi-css-prefix}-bookmark-star-fill::before {
+  content: "\f19e";
+}
+.#{$bi-css-prefix}-bookmark-star::before {
+  content: "\f19f";
+}
+.#{$bi-css-prefix}-bookmark-x-fill::before {
+  content: "\f1a0";
+}
+.#{$bi-css-prefix}-bookmark-x::before {
+  content: "\f1a1";
+}
+.#{$bi-css-prefix}-bookmark::before {
+  content: "\f1a2";
+}
+.#{$bi-css-prefix}-bookmarks-fill::before {
+  content: "\f1a3";
+}
+.#{$bi-css-prefix}-bookmarks::before {
+  content: "\f1a4";
+}
+.#{$bi-css-prefix}-bookshelf::before {
+  content: "\f1a5";
+}
+.#{$bi-css-prefix}-bootstrap-fill::before {
+  content: "\f1a6";
+}
+.#{$bi-css-prefix}-bootstrap-reboot::before {
+  content: "\f1a7";
+}
+.#{$bi-css-prefix}-bootstrap::before {
+  content: "\f1a8";
+}
+.#{$bi-css-prefix}-border-all::before {
+  content: "\f1a9";
+}
+.#{$bi-css-prefix}-border-bottom::before {
+  content: "\f1aa";
+}
+.#{$bi-css-prefix}-border-center::before {
+  content: "\f1ab";
+}
+.#{$bi-css-prefix}-border-inner::before {
+  content: "\f1ac";
+}
+.#{$bi-css-prefix}-border-left::before {
+  content: "\f1ad";
+}
+.#{$bi-css-prefix}-border-middle::before {
+  content: "\f1ae";
+}
+.#{$bi-css-prefix}-border-outer::before {
+  content: "\f1af";
+}
+.#{$bi-css-prefix}-border-right::before {
+  content: "\f1b0";
+}
+.#{$bi-css-prefix}-border-style::before {
+  content: "\f1b1";
+}
+.#{$bi-css-prefix}-border-top::before {
+  content: "\f1b2";
+}
+.#{$bi-css-prefix}-border-width::before {
+  content: "\f1b3";
+}
+.#{$bi-css-prefix}-border::before {
+  content: "\f1b4";
+}
+.#{$bi-css-prefix}-bounding-box-circles::before {
+  content: "\f1b5";
+}
+.#{$bi-css-prefix}-bounding-box::before {
+  content: "\f1b6";
+}
+.#{$bi-css-prefix}-box-arrow-down-left::before {
+  content: "\f1b7";
+}
+.#{$bi-css-prefix}-box-arrow-down-right::before {
+  content: "\f1b8";
+}
+.#{$bi-css-prefix}-box-arrow-down::before {
+  content: "\f1b9";
+}
+.#{$bi-css-prefix}-box-arrow-in-down-left::before {
+  content: "\f1ba";
+}
+.#{$bi-css-prefix}-box-arrow-in-down-right::before {
+  content: "\f1bb";
+}
+.#{$bi-css-prefix}-box-arrow-in-down::before {
+  content: "\f1bc";
+}
+.#{$bi-css-prefix}-box-arrow-in-left::before {
+  content: "\f1bd";
+}
+.#{$bi-css-prefix}-box-arrow-in-right::before {
+  content: "\f1be";
+}
+.#{$bi-css-prefix}-box-arrow-in-up-left::before {
+  content: "\f1bf";
+}
+.#{$bi-css-prefix}-box-arrow-in-up-right::before {
+  content: "\f1c0";
+}
+.#{$bi-css-prefix}-box-arrow-in-up::before {
+  content: "\f1c1";
+}
+.#{$bi-css-prefix}-box-arrow-left::before {
+  content: "\f1c2";
+}
+.#{$bi-css-prefix}-box-arrow-right::before {
+  content: "\f1c3";
+}
+.#{$bi-css-prefix}-box-arrow-up-left::before {
+  content: "\f1c4";
+}
+.#{$bi-css-prefix}-box-arrow-up-right::before {
+  content: "\f1c5";
+}
+.#{$bi-css-prefix}-box-arrow-up::before {
+  content: "\f1c6";
+}
+.#{$bi-css-prefix}-box-seam::before {
+  content: "\f1c7";
+}
+.#{$bi-css-prefix}-box::before {
+  content: "\f1c8";
+}
+.#{$bi-css-prefix}-braces::before {
+  content: "\f1c9";
+}
+.#{$bi-css-prefix}-bricks::before {
+  content: "\f1ca";
+}
+.#{$bi-css-prefix}-briefcase-fill::before {
+  content: "\f1cb";
+}
+.#{$bi-css-prefix}-briefcase::before {
+  content: "\f1cc";
+}
+.#{$bi-css-prefix}-brightness-alt-high-fill::before {
+  content: "\f1cd";
+}
+.#{$bi-css-prefix}-brightness-alt-high::before {
+  content: "\f1ce";
+}
+.#{$bi-css-prefix}-brightness-alt-low-fill::before {
+  content: "\f1cf";
+}
+.#{$bi-css-prefix}-brightness-alt-low::before {
+  content: "\f1d0";
+}
+.#{$bi-css-prefix}-brightness-high-fill::before {
+  content: "\f1d1";
+}
+.#{$bi-css-prefix}-brightness-high::before {
+  content: "\f1d2";
+}
+.#{$bi-css-prefix}-brightness-low-fill::before {
+  content: "\f1d3";
+}
+.#{$bi-css-prefix}-brightness-low::before {
+  content: "\f1d4";
+}
+.#{$bi-css-prefix}-broadcast-pin::before {
+  content: "\f1d5";
+}
+.#{$bi-css-prefix}-broadcast::before {
+  content: "\f1d6";
+}
+.#{$bi-css-prefix}-brush-fill::before {
+  content: "\f1d7";
+}
+.#{$bi-css-prefix}-brush::before {
+  content: "\f1d8";
+}
+.#{$bi-css-prefix}-bucket-fill::before {
+  content: "\f1d9";
+}
+.#{$bi-css-prefix}-bucket::before {
+  content: "\f1da";
+}
+.#{$bi-css-prefix}-bug-fill::before {
+  content: "\f1db";
+}
+.#{$bi-css-prefix}-bug::before {
+  content: "\f1dc";
+}
+.#{$bi-css-prefix}-building::before {
+  content: "\f1dd";
+}
+.#{$bi-css-prefix}-bullseye::before {
+  content: "\f1de";
+}
+.#{$bi-css-prefix}-calculator-fill::before {
+  content: "\f1df";
+}
+.#{$bi-css-prefix}-calculator::before {
+  content: "\f1e0";
+}
+.#{$bi-css-prefix}-calendar-check-fill::before {
+  content: "\f1e1";
+}
+.#{$bi-css-prefix}-calendar-check::before {
+  content: "\f1e2";
+}
+.#{$bi-css-prefix}-calendar-date-fill::before {
+  content: "\f1e3";
+}
+.#{$bi-css-prefix}-calendar-date::before {
+  content: "\f1e4";
+}
+.#{$bi-css-prefix}-calendar-day-fill::before {
+  content: "\f1e5";
+}
+.#{$bi-css-prefix}-calendar-day::before {
+  content: "\f1e6";
+}
+.#{$bi-css-prefix}-calendar-event-fill::before {
+  content: "\f1e7";
+}
+.#{$bi-css-prefix}-calendar-event::before {
+  content: "\f1e8";
+}
+.#{$bi-css-prefix}-calendar-fill::before {
+  content: "\f1e9";
+}
+.#{$bi-css-prefix}-calendar-minus-fill::before {
+  content: "\f1ea";
+}
+.#{$bi-css-prefix}-calendar-minus::before {
+  content: "\f1eb";
+}
+.#{$bi-css-prefix}-calendar-month-fill::before {
+  content: "\f1ec";
+}
+.#{$bi-css-prefix}-calendar-month::before {
+  content: "\f1ed";
+}
+.#{$bi-css-prefix}-calendar-plus-fill::before {
+  content: "\f1ee";
+}
+.#{$bi-css-prefix}-calendar-plus::before {
+  content: "\f1ef";
+}
+.#{$bi-css-prefix}-calendar-range-fill::before {
+  content: "\f1f0";
+}
+.#{$bi-css-prefix}-calendar-range::before {
+  content: "\f1f1";
+}
+.#{$bi-css-prefix}-calendar-week-fill::before {
+  content: "\f1f2";
+}
+.#{$bi-css-prefix}-calendar-week::before {
+  content: "\f1f3";
+}
+.#{$bi-css-prefix}-calendar-x-fill::before {
+  content: "\f1f4";
+}
+.#{$bi-css-prefix}-calendar-x::before {
+  content: "\f1f5";
+}
+.#{$bi-css-prefix}-calendar::before {
+  content: "\f1f6";
+}
+.#{$bi-css-prefix}-calendar2-check-fill::before {
+  content: "\f1f7";
+}
+.#{$bi-css-prefix}-calendar2-check::before {
+  content: "\f1f8";
+}
+.#{$bi-css-prefix}-calendar2-date-fill::before {
+  content: "\f1f9";
+}
+.#{$bi-css-prefix}-calendar2-date::before {
+  content: "\f1fa";
+}
+.#{$bi-css-prefix}-calendar2-day-fill::before {
+  content: "\f1fb";
+}
+.#{$bi-css-prefix}-calendar2-day::before {
+  content: "\f1fc";
+}
+.#{$bi-css-prefix}-calendar2-event-fill::before {
+  content: "\f1fd";
+}
+.#{$bi-css-prefix}-calendar2-event::before {
+  content: "\f1fe";
+}
+.#{$bi-css-prefix}-calendar2-fill::before {
+  content: "\f1ff";
+}
+.#{$bi-css-prefix}-calendar2-minus-fill::before {
+  content: "\f200";
+}
+.#{$bi-css-prefix}-calendar2-minus::before {
+  content: "\f201";
+}
+.#{$bi-css-prefix}-calendar2-month-fill::before {
+  content: "\f202";
+}
+.#{$bi-css-prefix}-calendar2-month::before {
+  content: "\f203";
+}
+.#{$bi-css-prefix}-calendar2-plus-fill::before {
+  content: "\f204";
+}
+.#{$bi-css-prefix}-calendar2-plus::before {
+  content: "\f205";
+}
+.#{$bi-css-prefix}-calendar2-range-fill::before {
+  content: "\f206";
+}
+.#{$bi-css-prefix}-calendar2-range::before {
+  content: "\f207";
+}
+.#{$bi-css-prefix}-calendar2-week-fill::before {
+  content: "\f208";
+}
+.#{$bi-css-prefix}-calendar2-week::before {
+  content: "\f209";
+}
+.#{$bi-css-prefix}-calendar2-x-fill::before {
+  content: "\f20a";
+}
+.#{$bi-css-prefix}-calendar2-x::before {
+  content: "\f20b";
+}
+.#{$bi-css-prefix}-calendar2::before {
+  content: "\f20c";
+}
+.#{$bi-css-prefix}-calendar3-event-fill::before {
+  content: "\f20d";
+}
+.#{$bi-css-prefix}-calendar3-event::before {
+  content: "\f20e";
+}
+.#{$bi-css-prefix}-calendar3-fill::before {
+  content: "\f20f";
+}
+.#{$bi-css-prefix}-calendar3-range-fill::before {
+  content: "\f210";
+}
+.#{$bi-css-prefix}-calendar3-range::before {
+  content: "\f211";
+}
+.#{$bi-css-prefix}-calendar3-week-fill::before {
+  content: "\f212";
+}
+.#{$bi-css-prefix}-calendar3-week::before {
+  content: "\f213";
+}
+.#{$bi-css-prefix}-calendar3::before {
+  content: "\f214";
+}
+.#{$bi-css-prefix}-calendar4-event::before {
+  content: "\f215";
+}
+.#{$bi-css-prefix}-calendar4-range::before {
+  content: "\f216";
+}
+.#{$bi-css-prefix}-calendar4-week::before {
+  content: "\f217";
+}
+.#{$bi-css-prefix}-calendar4::before {
+  content: "\f218";
+}
+.#{$bi-css-prefix}-camera-fill::before {
+  content: "\f219";
+}
+.#{$bi-css-prefix}-camera-reels-fill::before {
+  content: "\f21a";
+}
+.#{$bi-css-prefix}-camera-reels::before {
+  content: "\f21b";
+}
+.#{$bi-css-prefix}-camera-video-fill::before {
+  content: "\f21c";
+}
+.#{$bi-css-prefix}-camera-video-off-fill::before {
+  content: "\f21d";
+}
+.#{$bi-css-prefix}-camera-video-off::before {
+  content: "\f21e";
+}
+.#{$bi-css-prefix}-camera-video::before {
+  content: "\f21f";
+}
+.#{$bi-css-prefix}-camera::before {
+  content: "\f220";
+}
+.#{$bi-css-prefix}-camera2::before {
+  content: "\f221";
+}
+.#{$bi-css-prefix}-capslock-fill::before {
+  content: "\f222";
+}
+.#{$bi-css-prefix}-capslock::before {
+  content: "\f223";
+}
+.#{$bi-css-prefix}-card-checklist::before {
+  content: "\f224";
+}
+.#{$bi-css-prefix}-card-heading::before {
+  content: "\f225";
+}
+.#{$bi-css-prefix}-card-image::before {
+  content: "\f226";
+}
+.#{$bi-css-prefix}-card-list::before {
+  content: "\f227";
+}
+.#{$bi-css-prefix}-card-text::before {
+  content: "\f228";
+}
+.#{$bi-css-prefix}-caret-down-fill::before {
+  content: "\f229";
+}
+.#{$bi-css-prefix}-caret-down-square-fill::before {
+  content: "\f22a";
+}
+.#{$bi-css-prefix}-caret-down-square::before {
+  content: "\f22b";
+}
+.#{$bi-css-prefix}-caret-down::before {
+  content: "\f22c";
+}
+.#{$bi-css-prefix}-caret-left-fill::before {
+  content: "\f22d";
+}
+.#{$bi-css-prefix}-caret-left-square-fill::before {
+  content: "\f22e";
+}
+.#{$bi-css-prefix}-caret-left-square::before {
+  content: "\f22f";
+}
+.#{$bi-css-prefix}-caret-left::before {
+  content: "\f230";
+}
+.#{$bi-css-prefix}-caret-right-fill::before {
+  content: "\f231";
+}
+.#{$bi-css-prefix}-caret-right-square-fill::before {
+  content: "\f232";
+}
+.#{$bi-css-prefix}-caret-right-square::before {
+  content: "\f233";
+}
+.#{$bi-css-prefix}-caret-right::before {
+  content: "\f234";
+}
+.#{$bi-css-prefix}-caret-up-fill::before {
+  content: "\f235";
+}
+.#{$bi-css-prefix}-caret-up-square-fill::before {
+  content: "\f236";
+}
+.#{$bi-css-prefix}-caret-up-square::before {
+  content: "\f237";
+}
+.#{$bi-css-prefix}-caret-up::before {
+  content: "\f238";
+}
+.#{$bi-css-prefix}-cart-check-fill::before {
+  content: "\f239";
+}
+.#{$bi-css-prefix}-cart-check::before {
+  content: "\f23a";
+}
+.#{$bi-css-prefix}-cart-dash-fill::before {
+  content: "\f23b";
+}
+.#{$bi-css-prefix}-cart-dash::before {
+  content: "\f23c";
+}
+.#{$bi-css-prefix}-cart-fill::before {
+  content: "\f23d";
+}
+.#{$bi-css-prefix}-cart-plus-fill::before {
+  content: "\f23e";
+}
+.#{$bi-css-prefix}-cart-plus::before {
+  content: "\f23f";
+}
+.#{$bi-css-prefix}-cart-x-fill::before {
+  content: "\f240";
+}
+.#{$bi-css-prefix}-cart-x::before {
+  content: "\f241";
+}
+.#{$bi-css-prefix}-cart::before {
+  content: "\f242";
+}
+.#{$bi-css-prefix}-cart2::before {
+  content: "\f243";
+}
+.#{$bi-css-prefix}-cart3::before {
+  content: "\f244";
+}
+.#{$bi-css-prefix}-cart4::before {
+  content: "\f245";
+}
+.#{$bi-css-prefix}-cash-stack::before {
+  content: "\f246";
+}
+.#{$bi-css-prefix}-cash::before {
+  content: "\f247";
+}
+.#{$bi-css-prefix}-cast::before {
+  content: "\f248";
+}
+.#{$bi-css-prefix}-chat-dots-fill::before {
+  content: "\f249";
+}
+.#{$bi-css-prefix}-chat-dots::before {
+  content: "\f24a";
+}
+.#{$bi-css-prefix}-chat-fill::before {
+  content: "\f24b";
+}
+.#{$bi-css-prefix}-chat-left-dots-fill::before {
+  content: "\f24c";
+}
+.#{$bi-css-prefix}-chat-left-dots::before {
+  content: "\f24d";
+}
+.#{$bi-css-prefix}-chat-left-fill::before {
+  content: "\f24e";
+}
+.#{$bi-css-prefix}-chat-left-quote-fill::before {
+  content: "\f24f";
+}
+.#{$bi-css-prefix}-chat-left-quote::before {
+  content: "\f250";
+}
+.#{$bi-css-prefix}-chat-left-text-fill::before {
+  content: "\f251";
+}
+.#{$bi-css-prefix}-chat-left-text::before {
+  content: "\f252";
+}
+.#{$bi-css-prefix}-chat-left::before {
+  content: "\f253";
+}
+.#{$bi-css-prefix}-chat-quote-fill::before {
+  content: "\f254";
+}
+.#{$bi-css-prefix}-chat-quote::before {
+  content: "\f255";
+}
+.#{$bi-css-prefix}-chat-right-dots-fill::before {
+  content: "\f256";
+}
+.#{$bi-css-prefix}-chat-right-dots::before {
+  content: "\f257";
+}
+.#{$bi-css-prefix}-chat-right-fill::before {
+  content: "\f258";
+}
+.#{$bi-css-prefix}-chat-right-quote-fill::before {
+  content: "\f259";
+}
+.#{$bi-css-prefix}-chat-right-quote::before {
+  content: "\f25a";
+}
+.#{$bi-css-prefix}-chat-right-text-fill::before {
+  content: "\f25b";
+}
+.#{$bi-css-prefix}-chat-right-text::before {
+  content: "\f25c";
+}
+.#{$bi-css-prefix}-chat-right::before {
+  content: "\f25d";
+}
+.#{$bi-css-prefix}-chat-square-dots-fill::before {
+  content: "\f25e";
+}
+.#{$bi-css-prefix}-chat-square-dots::before {
+  content: "\f25f";
+}
+.#{$bi-css-prefix}-chat-square-fill::before {
+  content: "\f260";
+}
+.#{$bi-css-prefix}-chat-square-quote-fill::before {
+  content: "\f261";
+}
+.#{$bi-css-prefix}-chat-square-quote::before {
+  content: "\f262";
+}
+.#{$bi-css-prefix}-chat-square-text-fill::before {
+  content: "\f263";
+}
+.#{$bi-css-prefix}-chat-square-text::before {
+  content: "\f264";
+}
+.#{$bi-css-prefix}-chat-square::before {
+  content: "\f265";
+}
+.#{$bi-css-prefix}-chat-text-fill::before {
+  content: "\f266";
+}
+.#{$bi-css-prefix}-chat-text::before {
+  content: "\f267";
+}
+.#{$bi-css-prefix}-chat::before {
+  content: "\f268";
+}
+.#{$bi-css-prefix}-check-all::before {
+  content: "\f269";
+}
+.#{$bi-css-prefix}-check-circle-fill::before {
+  content: "\f26a";
+}
+.#{$bi-css-prefix}-check-circle::before {
+  content: "\f26b";
+}
+.#{$bi-css-prefix}-check-square-fill::before {
+  content: "\f26c";
+}
+.#{$bi-css-prefix}-check-square::before {
+  content: "\f26d";
+}
+.#{$bi-css-prefix}-check::before {
+  content: "\f26e";
+}
+.#{$bi-css-prefix}-check2-all::before {
+  content: "\f26f";
+}
+.#{$bi-css-prefix}-check2-circle::before {
+  content: "\f270";
+}
+.#{$bi-css-prefix}-check2-square::before {
+  content: "\f271";
+}
+.#{$bi-css-prefix}-check2::before {
+  content: "\f272";
+}
+.#{$bi-css-prefix}-chevron-bar-contract::before {
+  content: "\f273";
+}
+.#{$bi-css-prefix}-chevron-bar-down::before {
+  content: "\f274";
+}
+.#{$bi-css-prefix}-chevron-bar-expand::before {
+  content: "\f275";
+}
+.#{$bi-css-prefix}-chevron-bar-left::before {
+  content: "\f276";
+}
+.#{$bi-css-prefix}-chevron-bar-right::before {
+  content: "\f277";
+}
+.#{$bi-css-prefix}-chevron-bar-up::before {
+  content: "\f278";
+}
+.#{$bi-css-prefix}-chevron-compact-down::before {
+  content: "\f279";
+}
+.#{$bi-css-prefix}-chevron-compact-left::before {
+  content: "\f27a";
+}
+.#{$bi-css-prefix}-chevron-compact-right::before {
+  content: "\f27b";
+}
+.#{$bi-css-prefix}-chevron-compact-up::before {
+  content: "\f27c";
+}
+.#{$bi-css-prefix}-chevron-contract::before {
+  content: "\f27d";
+}
+.#{$bi-css-prefix}-chevron-double-down::before {
+  content: "\f27e";
+}
+.#{$bi-css-prefix}-chevron-double-left::before {
+  content: "\f27f";
+}
+.#{$bi-css-prefix}-chevron-double-right::before {
+  content: "\f280";
+}
+.#{$bi-css-prefix}-chevron-double-up::before {
+  content: "\f281";
+}
+.#{$bi-css-prefix}-chevron-down::before {
+  content: "\f282";
+}
+.#{$bi-css-prefix}-chevron-expand::before {
+  content: "\f283";
+}
+.#{$bi-css-prefix}-chevron-left::before {
+  content: "\f284";
+}
+.#{$bi-css-prefix}-chevron-right::before {
+  content: "\f285";
+}
+.#{$bi-css-prefix}-chevron-up::before {
+  content: "\f286";
+}
+.#{$bi-css-prefix}-circle-fill::before {
+  content: "\f287";
+}
+.#{$bi-css-prefix}-circle-half::before {
+  content: "\f288";
+}
+.#{$bi-css-prefix}-circle-square::before {
+  content: "\f289";
+}
+.#{$bi-css-prefix}-circle::before {
+  content: "\f28a";
+}
+.#{$bi-css-prefix}-clipboard-check::before {
+  content: "\f28b";
+}
+.#{$bi-css-prefix}-clipboard-data::before {
+  content: "\f28c";
+}
+.#{$bi-css-prefix}-clipboard-minus::before {
+  content: "\f28d";
+}
+.#{$bi-css-prefix}-clipboard-plus::before {
+  content: "\f28e";
+}
+.#{$bi-css-prefix}-clipboard-x::before {
+  content: "\f28f";
+}
+.#{$bi-css-prefix}-clipboard::before {
+  content: "\f290";
+}
+.#{$bi-css-prefix}-clock-fill::before {
+  content: "\f291";
+}
+.#{$bi-css-prefix}-clock-history::before {
+  content: "\f292";
+}
+.#{$bi-css-prefix}-clock::before {
+  content: "\f293";
+}
+.#{$bi-css-prefix}-cloud-arrow-down-fill::before {
+  content: "\f294";
+}
+.#{$bi-css-prefix}-cloud-arrow-down::before {
+  content: "\f295";
+}
+.#{$bi-css-prefix}-cloud-arrow-up-fill::before {
+  content: "\f296";
+}
+.#{$bi-css-prefix}-cloud-arrow-up::before {
+  content: "\f297";
+}
+.#{$bi-css-prefix}-cloud-check-fill::before {
+  content: "\f298";
+}
+.#{$bi-css-prefix}-cloud-check::before {
+  content: "\f299";
+}
+.#{$bi-css-prefix}-cloud-download-fill::before {
+  content: "\f29a";
+}
+.#{$bi-css-prefix}-cloud-download::before {
+  content: "\f29b";
+}
+.#{$bi-css-prefix}-cloud-drizzle-fill::before {
+  content: "\f29c";
+}
+.#{$bi-css-prefix}-cloud-drizzle::before {
+  content: "\f29d";
+}
+.#{$bi-css-prefix}-cloud-fill::before {
+  content: "\f29e";
+}
+.#{$bi-css-prefix}-cloud-fog-fill::before {
+  content: "\f29f";
+}
+.#{$bi-css-prefix}-cloud-fog::before {
+  content: "\f2a0";
+}
+.#{$bi-css-prefix}-cloud-fog2-fill::before {
+  content: "\f2a1";
+}
+.#{$bi-css-prefix}-cloud-fog2::before {
+  content: "\f2a2";
+}
+.#{$bi-css-prefix}-cloud-hail-fill::before {
+  content: "\f2a3";
+}
+.#{$bi-css-prefix}-cloud-hail::before {
+  content: "\f2a4";
+}
+.#{$bi-css-prefix}-cloud-haze-1::before {
+  content: "\f2a5";
+}
+.#{$bi-css-prefix}-cloud-haze-fill::before {
+  content: "\f2a6";
+}
+.#{$bi-css-prefix}-cloud-haze::before {
+  content: "\f2a7";
+}
+.#{$bi-css-prefix}-cloud-haze2-fill::before {
+  content: "\f2a8";
+}
+.#{$bi-css-prefix}-cloud-lightning-fill::before {
+  content: "\f2a9";
+}
+.#{$bi-css-prefix}-cloud-lightning-rain-fill::before {
+  content: "\f2aa";
+}
+.#{$bi-css-prefix}-cloud-lightning-rain::before {
+  content: "\f2ab";
+}
+.#{$bi-css-prefix}-cloud-lightning::before {
+  content: "\f2ac";
+}
+.#{$bi-css-prefix}-cloud-minus-fill::before {
+  content: "\f2ad";
+}
+.#{$bi-css-prefix}-cloud-minus::before {
+  content: "\f2ae";
+}
+.#{$bi-css-prefix}-cloud-moon-fill::before {
+  content: "\f2af";
+}
+.#{$bi-css-prefix}-cloud-moon::before {
+  content: "\f2b0";
+}
+.#{$bi-css-prefix}-cloud-plus-fill::before {
+  content: "\f2b1";
+}
+.#{$bi-css-prefix}-cloud-plus::before {
+  content: "\f2b2";
+}
+.#{$bi-css-prefix}-cloud-rain-fill::before {
+  content: "\f2b3";
+}
+.#{$bi-css-prefix}-cloud-rain-heavy-fill::before {
+  content: "\f2b4";
+}
+.#{$bi-css-prefix}-cloud-rain-heavy::before {
+  content: "\f2b5";
+}
+.#{$bi-css-prefix}-cloud-rain::before {
+  content: "\f2b6";
+}
+.#{$bi-css-prefix}-cloud-slash-fill::before {
+  content: "\f2b7";
+}
+.#{$bi-css-prefix}-cloud-slash::before {
+  content: "\f2b8";
+}
+.#{$bi-css-prefix}-cloud-sleet-fill::before {
+  content: "\f2b9";
+}
+.#{$bi-css-prefix}-cloud-sleet::before {
+  content: "\f2ba";
+}
+.#{$bi-css-prefix}-cloud-snow-fill::before {
+  content: "\f2bb";
+}
+.#{$bi-css-prefix}-cloud-snow::before {
+  content: "\f2bc";
+}
+.#{$bi-css-prefix}-cloud-sun-fill::before {
+  content: "\f2bd";
+}
+.#{$bi-css-prefix}-cloud-sun::before {
+  content: "\f2be";
+}
+.#{$bi-css-prefix}-cloud-upload-fill::before {
+  content: "\f2bf";
+}
+.#{$bi-css-prefix}-cloud-upload::before {
+  content: "\f2c0";
+}
+.#{$bi-css-prefix}-cloud::before {
+  content: "\f2c1";
+}
+.#{$bi-css-prefix}-clouds-fill::before {
+  content: "\f2c2";
+}
+.#{$bi-css-prefix}-clouds::before {
+  content: "\f2c3";
+}
+.#{$bi-css-prefix}-cloudy-fill::before {
+  content: "\f2c4";
+}
+.#{$bi-css-prefix}-cloudy::before {
+  content: "\f2c5";
+}
+.#{$bi-css-prefix}-code-slash::before {
+  content: "\f2c6";
+}
+.#{$bi-css-prefix}-code-square::before {
+  content: "\f2c7";
+}
+.#{$bi-css-prefix}-code::before {
+  content: "\f2c8";
+}
+.#{$bi-css-prefix}-collection-fill::before {
+  content: "\f2c9";
+}
+.#{$bi-css-prefix}-collection-play-fill::before {
+  content: "\f2ca";
+}
+.#{$bi-css-prefix}-collection-play::before {
+  content: "\f2cb";
+}
+.#{$bi-css-prefix}-collection::before {
+  content: "\f2cc";
+}
+.#{$bi-css-prefix}-columns-gap::before {
+  content: "\f2cd";
+}
+.#{$bi-css-prefix}-columns::before {
+  content: "\f2ce";
+}
+.#{$bi-css-prefix}-command::before {
+  content: "\f2cf";
+}
+.#{$bi-css-prefix}-compass-fill::before {
+  content: "\f2d0";
+}
+.#{$bi-css-prefix}-compass::before {
+  content: "\f2d1";
+}
+.#{$bi-css-prefix}-cone-striped::before {
+  content: "\f2d2";
+}
+.#{$bi-css-prefix}-cone::before {
+  content: "\f2d3";
+}
+.#{$bi-css-prefix}-controller::before {
+  content: "\f2d4";
+}
+.#{$bi-css-prefix}-cpu-fill::before {
+  content: "\f2d5";
+}
+.#{$bi-css-prefix}-cpu::before {
+  content: "\f2d6";
+}
+.#{$bi-css-prefix}-credit-card-2-back-fill::before {
+  content: "\f2d7";
+}
+.#{$bi-css-prefix}-credit-card-2-back::before {
+  content: "\f2d8";
+}
+.#{$bi-css-prefix}-credit-card-2-front-fill::before {
+  content: "\f2d9";
+}
+.#{$bi-css-prefix}-credit-card-2-front::before {
+  content: "\f2da";
+}
+.#{$bi-css-prefix}-credit-card-fill::before {
+  content: "\f2db";
+}
+.#{$bi-css-prefix}-credit-card::before {
+  content: "\f2dc";
+}
+.#{$bi-css-prefix}-crop::before {
+  content: "\f2dd";
+}
+.#{$bi-css-prefix}-cup-fill::before {
+  content: "\f2de";
+}
+.#{$bi-css-prefix}-cup-straw::before {
+  content: "\f2df";
+}
+.#{$bi-css-prefix}-cup::before {
+  content: "\f2e0";
+}
+.#{$bi-css-prefix}-cursor-fill::before {
+  content: "\f2e1";
+}
+.#{$bi-css-prefix}-cursor-text::before {
+  content: "\f2e2";
+}
+.#{$bi-css-prefix}-cursor::before {
+  content: "\f2e3";
+}
+.#{$bi-css-prefix}-dash-circle-dotted::before {
+  content: "\f2e4";
+}
+.#{$bi-css-prefix}-dash-circle-fill::before {
+  content: "\f2e5";
+}
+.#{$bi-css-prefix}-dash-circle::before {
+  content: "\f2e6";
+}
+.#{$bi-css-prefix}-dash-square-dotted::before {
+  content: "\f2e7";
+}
+.#{$bi-css-prefix}-dash-square-fill::before {
+  content: "\f2e8";
+}
+.#{$bi-css-prefix}-dash-square::before {
+  content: "\f2e9";
+}
+.#{$bi-css-prefix}-dash::before {
+  content: "\f2ea";
+}
+.#{$bi-css-prefix}-diagram-2-fill::before {
+  content: "\f2eb";
+}
+.#{$bi-css-prefix}-diagram-2::before {
+  content: "\f2ec";
+}
+.#{$bi-css-prefix}-diagram-3-fill::before {
+  content: "\f2ed";
+}
+.#{$bi-css-prefix}-diagram-3::before {
+  content: "\f2ee";
+}
+.#{$bi-css-prefix}-diamond-fill::before {
+  content: "\f2ef";
+}
+.#{$bi-css-prefix}-diamond-half::before {
+  content: "\f2f0";
+}
+.#{$bi-css-prefix}-diamond::before {
+  content: "\f2f1";
+}
+.#{$bi-css-prefix}-dice-1-fill::before {
+  content: "\f2f2";
+}
+.#{$bi-css-prefix}-dice-1::before {
+  content: "\f2f3";
+}
+.#{$bi-css-prefix}-dice-2-fill::before {
+  content: "\f2f4";
+}
+.#{$bi-css-prefix}-dice-2::before {
+  content: "\f2f5";
+}
+.#{$bi-css-prefix}-dice-3-fill::before {
+  content: "\f2f6";
+}
+.#{$bi-css-prefix}-dice-3::before {
+  content: "\f2f7";
+}
+.#{$bi-css-prefix}-dice-4-fill::before {
+  content: "\f2f8";
+}
+.#{$bi-css-prefix}-dice-4::before {
+  content: "\f2f9";
+}
+.#{$bi-css-prefix}-dice-5-fill::before {
+  content: "\f2fa";
+}
+.#{$bi-css-prefix}-dice-5::before {
+  content: "\f2fb";
+}
+.#{$bi-css-prefix}-dice-6-fill::before {
+  content: "\f2fc";
+}
+.#{$bi-css-prefix}-dice-6::before {
+  content: "\f2fd";
+}
+.#{$bi-css-prefix}-disc-fill::before {
+  content: "\f2fe";
+}
+.#{$bi-css-prefix}-disc::before {
+  content: "\f2ff";
+}
+.#{$bi-css-prefix}-discord::before {
+  content: "\f300";
+}
+.#{$bi-css-prefix}-display-fill::before {
+  content: "\f301";
+}
+.#{$bi-css-prefix}-display::before {
+  content: "\f302";
+}
+.#{$bi-css-prefix}-distribute-horizontal::before {
+  content: "\f303";
+}
+.#{$bi-css-prefix}-distribute-vertical::before {
+  content: "\f304";
+}
+.#{$bi-css-prefix}-door-closed-fill::before {
+  content: "\f305";
+}
+.#{$bi-css-prefix}-door-closed::before {
+  content: "\f306";
+}
+.#{$bi-css-prefix}-door-open-fill::before {
+  content: "\f307";
+}
+.#{$bi-css-prefix}-door-open::before {
+  content: "\f308";
+}
+.#{$bi-css-prefix}-dot::before {
+  content: "\f309";
+}
+.#{$bi-css-prefix}-download::before {
+  content: "\f30a";
+}
+.#{$bi-css-prefix}-droplet-fill::before {
+  content: "\f30b";
+}
+.#{$bi-css-prefix}-droplet-half::before {
+  content: "\f30c";
+}
+.#{$bi-css-prefix}-droplet::before {
+  content: "\f30d";
+}
+.#{$bi-css-prefix}-earbuds::before {
+  content: "\f30e";
+}
+.#{$bi-css-prefix}-easel-fill::before {
+  content: "\f30f";
+}
+.#{$bi-css-prefix}-easel::before {
+  content: "\f310";
+}
+.#{$bi-css-prefix}-egg-fill::before {
+  content: "\f311";
+}
+.#{$bi-css-prefix}-egg-fried::before {
+  content: "\f312";
+}
+.#{$bi-css-prefix}-egg::before {
+  content: "\f313";
+}
+.#{$bi-css-prefix}-eject-fill::before {
+  content: "\f314";
+}
+.#{$bi-css-prefix}-eject::before {
+  content: "\f315";
+}
+.#{$bi-css-prefix}-emoji-angry-fill::before {
+  content: "\f316";
+}
+.#{$bi-css-prefix}-emoji-angry::before {
+  content: "\f317";
+}
+.#{$bi-css-prefix}-emoji-dizzy-fill::before {
+  content: "\f318";
+}
+.#{$bi-css-prefix}-emoji-dizzy::before {
+  content: "\f319";
+}
+.#{$bi-css-prefix}-emoji-expressionless-fill::before {
+  content: "\f31a";
+}
+.#{$bi-css-prefix}-emoji-expressionless::before {
+  content: "\f31b";
+}
+.#{$bi-css-prefix}-emoji-frown-fill::before {
+  content: "\f31c";
+}
+.#{$bi-css-prefix}-emoji-frown::before {
+  content: "\f31d";
+}
+.#{$bi-css-prefix}-emoji-heart-eyes-fill::before {
+  content: "\f31e";
+}
+.#{$bi-css-prefix}-emoji-heart-eyes::before {
+  content: "\f31f";
+}
+.#{$bi-css-prefix}-emoji-laughing-fill::before {
+  content: "\f320";
+}
+.#{$bi-css-prefix}-emoji-laughing::before {
+  content: "\f321";
+}
+.#{$bi-css-prefix}-emoji-neutral-fill::before {
+  content: "\f322";
+}
+.#{$bi-css-prefix}-emoji-neutral::before {
+  content: "\f323";
+}
+.#{$bi-css-prefix}-emoji-smile-fill::before {
+  content: "\f324";
+}
+.#{$bi-css-prefix}-emoji-smile-upside-down-fill::before {
+  content: "\f325";
+}
+.#{$bi-css-prefix}-emoji-smile-upside-down::before {
+  content: "\f326";
+}
+.#{$bi-css-prefix}-emoji-smile::before {
+  content: "\f327";
+}
+.#{$bi-css-prefix}-emoji-sunglasses-fill::before {
+  content: "\f328";
+}
+.#{$bi-css-prefix}-emoji-sunglasses::before {
+  content: "\f329";
+}
+.#{$bi-css-prefix}-emoji-wink-fill::before {
+  content: "\f32a";
+}
+.#{$bi-css-prefix}-emoji-wink::before {
+  content: "\f32b";
+}
+.#{$bi-css-prefix}-envelope-fill::before {
+  content: "\f32c";
+}
+.#{$bi-css-prefix}-envelope-open-fill::before {
+  content: "\f32d";
+}
+.#{$bi-css-prefix}-envelope-open::before {
+  content: "\f32e";
+}
+.#{$bi-css-prefix}-envelope::before {
+  content: "\f32f";
+}
+.#{$bi-css-prefix}-eraser-fill::before {
+  content: "\f330";
+}
+.#{$bi-css-prefix}-eraser::before {
+  content: "\f331";
+}
+.#{$bi-css-prefix}-exclamation-circle-fill::before {
+  content: "\f332";
+}
+.#{$bi-css-prefix}-exclamation-circle::before {
+  content: "\f333";
+}
+.#{$bi-css-prefix}-exclamation-diamond-fill::before {
+  content: "\f334";
+}
+.#{$bi-css-prefix}-exclamation-diamond::before {
+  content: "\f335";
+}
+.#{$bi-css-prefix}-exclamation-octagon-fill::before {
+  content: "\f336";
+}
+.#{$bi-css-prefix}-exclamation-octagon::before {
+  content: "\f337";
+}
+.#{$bi-css-prefix}-exclamation-square-fill::before {
+  content: "\f338";
+}
+.#{$bi-css-prefix}-exclamation-square::before {
+  content: "\f339";
+}
+.#{$bi-css-prefix}-exclamation-triangle-fill::before {
+  content: "\f33a";
+}
+.#{$bi-css-prefix}-exclamation-triangle::before {
+  content: "\f33b";
+}
+.#{$bi-css-prefix}-exclamation::before {
+  content: "\f33c";
+}
+.#{$bi-css-prefix}-exclude::before {
+  content: "\f33d";
+}
+.#{$bi-css-prefix}-eye-fill::before {
+  content: "\f33e";
+}
+.#{$bi-css-prefix}-eye-slash-fill::before {
+  content: "\f33f";
+}
+.#{$bi-css-prefix}-eye-slash::before {
+  content: "\f340";
+}
+.#{$bi-css-prefix}-eye::before {
+  content: "\f341";
+}
+.#{$bi-css-prefix}-eyedropper::before {
+  content: "\f342";
+}
+.#{$bi-css-prefix}-eyeglasses::before {
+  content: "\f343";
+}
+.#{$bi-css-prefix}-facebook::before {
+  content: "\f344";
+}
+.#{$bi-css-prefix}-file-arrow-down-fill::before {
+  content: "\f345";
+}
+.#{$bi-css-prefix}-file-arrow-down::before {
+  content: "\f346";
+}
+.#{$bi-css-prefix}-file-arrow-up-fill::before {
+  content: "\f347";
+}
+.#{$bi-css-prefix}-file-arrow-up::before {
+  content: "\f348";
+}
+.#{$bi-css-prefix}-file-bar-graph-fill::before {
+  content: "\f349";
+}
+.#{$bi-css-prefix}-file-bar-graph::before {
+  content: "\f34a";
+}
+.#{$bi-css-prefix}-file-binary-fill::before {
+  content: "\f34b";
+}
+.#{$bi-css-prefix}-file-binary::before {
+  content: "\f34c";
+}
+.#{$bi-css-prefix}-file-break-fill::before {
+  content: "\f34d";
+}
+.#{$bi-css-prefix}-file-break::before {
+  content: "\f34e";
+}
+.#{$bi-css-prefix}-file-check-fill::before {
+  content: "\f34f";
+}
+.#{$bi-css-prefix}-file-check::before {
+  content: "\f350";
+}
+.#{$bi-css-prefix}-file-code-fill::before {
+  content: "\f351";
+}
+.#{$bi-css-prefix}-file-code::before {
+  content: "\f352";
+}
+.#{$bi-css-prefix}-file-diff-fill::before {
+  content: "\f353";
+}
+.#{$bi-css-prefix}-file-diff::before {
+  content: "\f354";
+}
+.#{$bi-css-prefix}-file-earmark-arrow-down-fill::before {
+  content: "\f355";
+}
+.#{$bi-css-prefix}-file-earmark-arrow-down::before {
+  content: "\f356";
+}
+.#{$bi-css-prefix}-file-earmark-arrow-up-fill::before {
+  content: "\f357";
+}
+.#{$bi-css-prefix}-file-earmark-arrow-up::before {
+  content: "\f358";
+}
+.#{$bi-css-prefix}-file-earmark-bar-graph-fill::before {
+  content: "\f359";
+}
+.#{$bi-css-prefix}-file-earmark-bar-graph::before {
+  content: "\f35a";
+}
+.#{$bi-css-prefix}-file-earmark-binary-fill::before {
+  content: "\f35b";
+}
+.#{$bi-css-prefix}-file-earmark-binary::before {
+  content: "\f35c";
+}
+.#{$bi-css-prefix}-file-earmark-break-fill::before {
+  content: "\f35d";
+}
+.#{$bi-css-prefix}-file-earmark-break::before {
+  content: "\f35e";
+}
+.#{$bi-css-prefix}-file-earmark-check-fill::before {
+  content: "\f35f";
+}
+.#{$bi-css-prefix}-file-earmark-check::before {
+  content: "\f360";
+}
+.#{$bi-css-prefix}-file-earmark-code-fill::before {
+  content: "\f361";
+}
+.#{$bi-css-prefix}-file-earmark-code::before {
+  content: "\f362";
+}
+.#{$bi-css-prefix}-file-earmark-diff-fill::before {
+  content: "\f363";
+}
+.#{$bi-css-prefix}-file-earmark-diff::before {
+  content: "\f364";
+}
+.#{$bi-css-prefix}-file-earmark-easel-fill::before {
+  content: "\f365";
+}
+.#{$bi-css-prefix}-file-earmark-easel::before {
+  content: "\f366";
+}
+.#{$bi-css-prefix}-file-earmark-excel-fill::before {
+  content: "\f367";
+}
+.#{$bi-css-prefix}-file-earmark-excel::before {
+  content: "\f368";
+}
+.#{$bi-css-prefix}-file-earmark-fill::before {
+  content: "\f369";
+}
+.#{$bi-css-prefix}-file-earmark-font-fill::before {
+  content: "\f36a";
+}
+.#{$bi-css-prefix}-file-earmark-font::before {
+  content: "\f36b";
+}
+.#{$bi-css-prefix}-file-earmark-image-fill::before {
+  content: "\f36c";
+}
+.#{$bi-css-prefix}-file-earmark-image::before {
+  content: "\f36d";
+}
+.#{$bi-css-prefix}-file-earmark-lock-fill::before {
+  content: "\f36e";
+}
+.#{$bi-css-prefix}-file-earmark-lock::before {
+  content: "\f36f";
+}
+.#{$bi-css-prefix}-file-earmark-lock2-fill::before {
+  content: "\f370";
+}
+.#{$bi-css-prefix}-file-earmark-lock2::before {
+  content: "\f371";
+}
+.#{$bi-css-prefix}-file-earmark-medical-fill::before {
+  content: "\f372";
+}
+.#{$bi-css-prefix}-file-earmark-medical::before {
+  content: "\f373";
+}
+.#{$bi-css-prefix}-file-earmark-minus-fill::before {
+  content: "\f374";
+}
+.#{$bi-css-prefix}-file-earmark-minus::before {
+  content: "\f375";
+}
+.#{$bi-css-prefix}-file-earmark-music-fill::before {
+  content: "\f376";
+}
+.#{$bi-css-prefix}-file-earmark-music::before {
+  content: "\f377";
+}
+.#{$bi-css-prefix}-file-earmark-person-fill::before {
+  content: "\f378";
+}
+.#{$bi-css-prefix}-file-earmark-person::before {
+  content: "\f379";
+}
+.#{$bi-css-prefix}-file-earmark-play-fill::before {
+  content: "\f37a";
+}
+.#{$bi-css-prefix}-file-earmark-play::before {
+  content: "\f37b";
+}
+.#{$bi-css-prefix}-file-earmark-plus-fill::before {
+  content: "\f37c";
+}
+.#{$bi-css-prefix}-file-earmark-plus::before {
+  content: "\f37d";
+}
+.#{$bi-css-prefix}-file-earmark-post-fill::before {
+  content: "\f37e";
+}
+.#{$bi-css-prefix}-file-earmark-post::before {
+  content: "\f37f";
+}
+.#{$bi-css-prefix}-file-earmark-ppt-fill::before {
+  content: "\f380";
+}
+.#{$bi-css-prefix}-file-earmark-ppt::before {
+  content: "\f381";
+}
+.#{$bi-css-prefix}-file-earmark-richtext-fill::before {
+  content: "\f382";
+}
+.#{$bi-css-prefix}-file-earmark-richtext::before {
+  content: "\f383";
+}
+.#{$bi-css-prefix}-file-earmark-ruled-fill::before {
+  content: "\f384";
+}
+.#{$bi-css-prefix}-file-earmark-ruled::before {
+  content: "\f385";
+}
+.#{$bi-css-prefix}-file-earmark-slides-fill::before {
+  content: "\f386";
+}
+.#{$bi-css-prefix}-file-earmark-slides::before {
+  content: "\f387";
+}
+.#{$bi-css-prefix}-file-earmark-spreadsheet-fill::before {
+  content: "\f388";
+}
+.#{$bi-css-prefix}-file-earmark-spreadsheet::before {
+  content: "\f389";
+}
+.#{$bi-css-prefix}-file-earmark-text-fill::before {
+  content: "\f38a";
+}
+.#{$bi-css-prefix}-file-earmark-text::before {
+  content: "\f38b";
+}
+.#{$bi-css-prefix}-file-earmark-word-fill::before {
+  content: "\f38c";
+}
+.#{$bi-css-prefix}-file-earmark-word::before {
+  content: "\f38d";
+}
+.#{$bi-css-prefix}-file-earmark-x-fill::before {
+  content: "\f38e";
+}
+.#{$bi-css-prefix}-file-earmark-x::before {
+  content: "\f38f";
+}
+.#{$bi-css-prefix}-file-earmark-zip-fill::before {
+  content: "\f390";
+}
+.#{$bi-css-prefix}-file-earmark-zip::before {
+  content: "\f391";
+}
+.#{$bi-css-prefix}-file-earmark::before {
+  content: "\f392";
+}
+.#{$bi-css-prefix}-file-easel-fill::before {
+  content: "\f393";
+}
+.#{$bi-css-prefix}-file-easel::before {
+  content: "\f394";
+}
+.#{$bi-css-prefix}-file-excel-fill::before {
+  content: "\f395";
+}
+.#{$bi-css-prefix}-file-excel::before {
+  content: "\f396";
+}
+.#{$bi-css-prefix}-file-fill::before {
+  content: "\f397";
+}
+.#{$bi-css-prefix}-file-font-fill::before {
+  content: "\f398";
+}
+.#{$bi-css-prefix}-file-font::before {
+  content: "\f399";
+}
+.#{$bi-css-prefix}-file-image-fill::before {
+  content: "\f39a";
+}
+.#{$bi-css-prefix}-file-image::before {
+  content: "\f39b";
+}
+.#{$bi-css-prefix}-file-lock-fill::before {
+  content: "\f39c";
+}
+.#{$bi-css-prefix}-file-lock::before {
+  content: "\f39d";
+}
+.#{$bi-css-prefix}-file-lock2-fill::before {
+  content: "\f39e";
+}
+.#{$bi-css-prefix}-file-lock2::before {
+  content: "\f39f";
+}
+.#{$bi-css-prefix}-file-medical-fill::before {
+  content: "\f3a0";
+}
+.#{$bi-css-prefix}-file-medical::before {
+  content: "\f3a1";
+}
+.#{$bi-css-prefix}-file-minus-fill::before {
+  content: "\f3a2";
+}
+.#{$bi-css-prefix}-file-minus::before {
+  content: "\f3a3";
+}
+.#{$bi-css-prefix}-file-music-fill::before {
+  content: "\f3a4";
+}
+.#{$bi-css-prefix}-file-music::before {
+  content: "\f3a5";
+}
+.#{$bi-css-prefix}-file-person-fill::before {
+  content: "\f3a6";
+}
+.#{$bi-css-prefix}-file-person::before {
+  content: "\f3a7";
+}
+.#{$bi-css-prefix}-file-play-fill::before {
+  content: "\f3a8";
+}
+.#{$bi-css-prefix}-file-play::before {
+  content: "\f3a9";
+}
+.#{$bi-css-prefix}-file-plus-fill::before {
+  content: "\f3aa";
+}
+.#{$bi-css-prefix}-file-plus::before {
+  content: "\f3ab";
+}
+.#{$bi-css-prefix}-file-post-fill::before {
+  content: "\f3ac";
+}
+.#{$bi-css-prefix}-file-post::before {
+  content: "\f3ad";
+}
+.#{$bi-css-prefix}-file-ppt-fill::before {
+  content: "\f3ae";
+}
+.#{$bi-css-prefix}-file-ppt::before {
+  content: "\f3af";
+}
+.#{$bi-css-prefix}-file-richtext-fill::before {
+  content: "\f3b0";
+}
+.#{$bi-css-prefix}-file-richtext::before {
+  content: "\f3b1";
+}
+.#{$bi-css-prefix}-file-ruled-fill::before {
+  content: "\f3b2";
+}
+.#{$bi-css-prefix}-file-ruled::before {
+  content: "\f3b3";
+}
+.#{$bi-css-prefix}-file-slides-fill::before {
+  content: "\f3b4";
+}
+.#{$bi-css-prefix}-file-slides::before {
+  content: "\f3b5";
+}
+.#{$bi-css-prefix}-file-spreadsheet-fill::before {
+  content: "\f3b6";
+}
+.#{$bi-css-prefix}-file-spreadsheet::before {
+  content: "\f3b7";
+}
+.#{$bi-css-prefix}-file-text-fill::before {
+  content: "\f3b8";
+}
+.#{$bi-css-prefix}-file-text::before {
+  content: "\f3b9";
+}
+.#{$bi-css-prefix}-file-word-fill::before {
+  content: "\f3ba";
+}
+.#{$bi-css-prefix}-file-word::before {
+  content: "\f3bb";
+}
+.#{$bi-css-prefix}-file-x-fill::before {
+  content: "\f3bc";
+}
+.#{$bi-css-prefix}-file-x::before {
+  content: "\f3bd";
+}
+.#{$bi-css-prefix}-file-zip-fill::before {
+  content: "\f3be";
+}
+.#{$bi-css-prefix}-file-zip::before {
+  content: "\f3bf";
+}
+.#{$bi-css-prefix}-file::before {
+  content: "\f3c0";
+}
+.#{$bi-css-prefix}-files-alt::before {
+  content: "\f3c1";
+}
+.#{$bi-css-prefix}-files::before {
+  content: "\f3c2";
+}
+.#{$bi-css-prefix}-film::before {
+  content: "\f3c3";
+}
+.#{$bi-css-prefix}-filter-circle-fill::before {
+  content: "\f3c4";
+}
+.#{$bi-css-prefix}-filter-circle::before {
+  content: "\f3c5";
+}
+.#{$bi-css-prefix}-filter-left::before {
+  content: "\f3c6";
+}
+.#{$bi-css-prefix}-filter-right::before {
+  content: "\f3c7";
+}
+.#{$bi-css-prefix}-filter-square-fill::before {
+  content: "\f3c8";
+}
+.#{$bi-css-prefix}-filter-square::before {
+  content: "\f3c9";
+}
+.#{$bi-css-prefix}-filter::before {
+  content: "\f3ca";
+}
+.#{$bi-css-prefix}-flag-fill::before {
+  content: "\f3cb";
+}
+.#{$bi-css-prefix}-flag::before {
+  content: "\f3cc";
+}
+.#{$bi-css-prefix}-flower1::before {
+  content: "\f3cd";
+}
+.#{$bi-css-prefix}-flower2::before {
+  content: "\f3ce";
+}
+.#{$bi-css-prefix}-flower3::before {
+  content: "\f3cf";
+}
+.#{$bi-css-prefix}-folder-check::before {
+  content: "\f3d0";
+}
+.#{$bi-css-prefix}-folder-fill::before {
+  content: "\f3d1";
+}
+.#{$bi-css-prefix}-folder-minus::before {
+  content: "\f3d2";
+}
+.#{$bi-css-prefix}-folder-plus::before {
+  content: "\f3d3";
+}
+.#{$bi-css-prefix}-folder-symlink-fill::before {
+  content: "\f3d4";
+}
+.#{$bi-css-prefix}-folder-symlink::before {
+  content: "\f3d5";
+}
+.#{$bi-css-prefix}-folder-x::before {
+  content: "\f3d6";
+}
+.#{$bi-css-prefix}-folder::before {
+  content: "\f3d7";
+}
+.#{$bi-css-prefix}-folder2-open::before {
+  content: "\f3d8";
+}
+.#{$bi-css-prefix}-folder2::before {
+  content: "\f3d9";
+}
+.#{$bi-css-prefix}-fonts::before {
+  content: "\f3da";
+}
+.#{$bi-css-prefix}-forward-fill::before {
+  content: "\f3db";
+}
+.#{$bi-css-prefix}-forward::before {
+  content: "\f3dc";
+}
+.#{$bi-css-prefix}-front::before {
+  content: "\f3dd";
+}
+.#{$bi-css-prefix}-fullscreen-exit::before {
+  content: "\f3de";
+}
+.#{$bi-css-prefix}-fullscreen::before {
+  content: "\f3df";
+}
+.#{$bi-css-prefix}-funnel-fill::before {
+  content: "\f3e0";
+}
+.#{$bi-css-prefix}-funnel::before {
+  content: "\f3e1";
+}
+.#{$bi-css-prefix}-gear-fill::before {
+  content: "\f3e2";
+}
+.#{$bi-css-prefix}-gear-wide-connected::before {
+  content: "\f3e3";
+}
+.#{$bi-css-prefix}-gear-wide::before {
+  content: "\f3e4";
+}
+.#{$bi-css-prefix}-gear::before {
+  content: "\f3e5";
+}
+.#{$bi-css-prefix}-gem::before {
+  content: "\f3e6";
+}
+.#{$bi-css-prefix}-geo-alt-fill::before {
+  content: "\f3e7";
+}
+.#{$bi-css-prefix}-geo-alt::before {
+  content: "\f3e8";
+}
+.#{$bi-css-prefix}-geo-fill::before {
+  content: "\f3e9";
+}
+.#{$bi-css-prefix}-geo::before {
+  content: "\f3ea";
+}
+.#{$bi-css-prefix}-gift-fill::before {
+  content: "\f3eb";
+}
+.#{$bi-css-prefix}-gift::before {
+  content: "\f3ec";
+}
+.#{$bi-css-prefix}-github::before {
+  content: "\f3ed";
+}
+.#{$bi-css-prefix}-globe::before {
+  content: "\f3ee";
+}
+.#{$bi-css-prefix}-globe2::before {
+  content: "\f3ef";
+}
+.#{$bi-css-prefix}-google::before {
+  content: "\f3f0";
+}
+.#{$bi-css-prefix}-graph-down::before {
+  content: "\f3f1";
+}
+.#{$bi-css-prefix}-graph-up::before {
+  content: "\f3f2";
+}
+.#{$bi-css-prefix}-grid-1x2-fill::before {
+  content: "\f3f3";
+}
+.#{$bi-css-prefix}-grid-1x2::before {
+  content: "\f3f4";
+}
+.#{$bi-css-prefix}-grid-3x2-gap-fill::before {
+  content: "\f3f5";
+}
+.#{$bi-css-prefix}-grid-3x2-gap::before {
+  content: "\f3f6";
+}
+.#{$bi-css-prefix}-grid-3x2::before {
+  content: "\f3f7";
+}
+.#{$bi-css-prefix}-grid-3x3-gap-fill::before {
+  content: "\f3f8";
+}
+.#{$bi-css-prefix}-grid-3x3-gap::before {
+  content: "\f3f9";
+}
+.#{$bi-css-prefix}-grid-3x3::before {
+  content: "\f3fa";
+}
+.#{$bi-css-prefix}-grid-fill::before {
+  content: "\f3fb";
+}
+.#{$bi-css-prefix}-grid::before {
+  content: "\f3fc";
+}
+.#{$bi-css-prefix}-grip-horizontal::before {
+  content: "\f3fd";
+}
+.#{$bi-css-prefix}-grip-vertical::before {
+  content: "\f3fe";
+}
+.#{$bi-css-prefix}-hammer::before {
+  content: "\f3ff";
+}
+.#{$bi-css-prefix}-hand-index-fill::before {
+  content: "\f400";
+}
+.#{$bi-css-prefix}-hand-index-thumb-fill::before {
+  content: "\f401";
+}
+.#{$bi-css-prefix}-hand-index-thumb::before {
+  content: "\f402";
+}
+.#{$bi-css-prefix}-hand-index::before {
+  content: "\f403";
+}
+.#{$bi-css-prefix}-hand-thumbs-down-fill::before {
+  content: "\f404";
+}
+.#{$bi-css-prefix}-hand-thumbs-down::before {
+  content: "\f405";
+}
+.#{$bi-css-prefix}-hand-thumbs-up-fill::before {
+  content: "\f406";
+}
+.#{$bi-css-prefix}-hand-thumbs-up::before {
+  content: "\f407";
+}
+.#{$bi-css-prefix}-handbag-fill::before {
+  content: "\f408";
+}
+.#{$bi-css-prefix}-handbag::before {
+  content: "\f409";
+}
+.#{$bi-css-prefix}-hash::before {
+  content: "\f40a";
+}
+.#{$bi-css-prefix}-hdd-fill::before {
+  content: "\f40b";
+}
+.#{$bi-css-prefix}-hdd-network-fill::before {
+  content: "\f40c";
+}
+.#{$bi-css-prefix}-hdd-network::before {
+  content: "\f40d";
+}
+.#{$bi-css-prefix}-hdd-rack-fill::before {
+  content: "\f40e";
+}
+.#{$bi-css-prefix}-hdd-rack::before {
+  content: "\f40f";
+}
+.#{$bi-css-prefix}-hdd-stack-fill::before {
+  content: "\f410";
+}
+.#{$bi-css-prefix}-hdd-stack::before {
+  content: "\f411";
+}
+.#{$bi-css-prefix}-hdd::before {
+  content: "\f412";
+}
+.#{$bi-css-prefix}-headphones::before {
+  content: "\f413";
+}
+.#{$bi-css-prefix}-headset::before {
+  content: "\f414";
+}
+.#{$bi-css-prefix}-heart-fill::before {
+  content: "\f415";
+}
+.#{$bi-css-prefix}-heart-half::before {
+  content: "\f416";
+}
+.#{$bi-css-prefix}-heart::before {
+  content: "\f417";
+}
+.#{$bi-css-prefix}-heptagon-fill::before {
+  content: "\f418";
+}
+.#{$bi-css-prefix}-heptagon-half::before {
+  content: "\f419";
+}
+.#{$bi-css-prefix}-heptagon::before {
+  content: "\f41a";
+}
+.#{$bi-css-prefix}-hexagon-fill::before {
+  content: "\f41b";
+}
+.#{$bi-css-prefix}-hexagon-half::before {
+  content: "\f41c";
+}
+.#{$bi-css-prefix}-hexagon::before {
+  content: "\f41d";
+}
+.#{$bi-css-prefix}-hourglass-bottom::before {
+  content: "\f41e";
+}
+.#{$bi-css-prefix}-hourglass-split::before {
+  content: "\f41f";
+}
+.#{$bi-css-prefix}-hourglass-top::before {
+  content: "\f420";
+}
+.#{$bi-css-prefix}-hourglass::before {
+  content: "\f421";
+}
+.#{$bi-css-prefix}-house-door-fill::before {
+  content: "\f422";
+}
+.#{$bi-css-prefix}-house-door::before {
+  content: "\f423";
+}
+.#{$bi-css-prefix}-house-fill::before {
+  content: "\f424";
+}
+.#{$bi-css-prefix}-house::before {
+  content: "\f425";
+}
+.#{$bi-css-prefix}-hr::before {
+  content: "\f426";
+}
+.#{$bi-css-prefix}-hurricane::before {
+  content: "\f427";
+}
+.#{$bi-css-prefix}-image-alt::before {
+  content: "\f428";
+}
+.#{$bi-css-prefix}-image-fill::before {
+  content: "\f429";
+}
+.#{$bi-css-prefix}-image::before {
+  content: "\f42a";
+}
+.#{$bi-css-prefix}-images::before {
+  content: "\f42b";
+}
+.#{$bi-css-prefix}-inbox-fill::before {
+  content: "\f42c";
+}
+.#{$bi-css-prefix}-inbox::before {
+  content: "\f42d";
+}
+.#{$bi-css-prefix}-inboxes-fill::before {
+  content: "\f42e";
+}
+.#{$bi-css-prefix}-inboxes::before {
+  content: "\f42f";
+}
+.#{$bi-css-prefix}-info-circle-fill::before {
+  content: "\f430";
+}
+.#{$bi-css-prefix}-info-circle::before {
+  content: "\f431";
+}
+.#{$bi-css-prefix}-info-square-fill::before {
+  content: "\f432";
+}
+.#{$bi-css-prefix}-info-square::before {
+  content: "\f433";
+}
+.#{$bi-css-prefix}-info::before {
+  content: "\f434";
+}
+.#{$bi-css-prefix}-input-cursor-text::before {
+  content: "\f435";
+}
+.#{$bi-css-prefix}-input-cursor::before {
+  content: "\f436";
+}
+.#{$bi-css-prefix}-instagram::before {
+  content: "\f437";
+}
+.#{$bi-css-prefix}-intersect::before {
+  content: "\f438";
+}
+.#{$bi-css-prefix}-journal-album::before {
+  content: "\f439";
+}
+.#{$bi-css-prefix}-journal-arrow-down::before {
+  content: "\f43a";
+}
+.#{$bi-css-prefix}-journal-arrow-up::before {
+  content: "\f43b";
+}
+.#{$bi-css-prefix}-journal-bookmark-fill::before {
+  content: "\f43c";
+}
+.#{$bi-css-prefix}-journal-bookmark::before {
+  content: "\f43d";
+}
+.#{$bi-css-prefix}-journal-check::before {
+  content: "\f43e";
+}
+.#{$bi-css-prefix}-journal-code::before {
+  content: "\f43f";
+}
+.#{$bi-css-prefix}-journal-medical::before {
+  content: "\f440";
+}
+.#{$bi-css-prefix}-journal-minus::before {
+  content: "\f441";
+}
+.#{$bi-css-prefix}-journal-plus::before {
+  content: "\f442";
+}
+.#{$bi-css-prefix}-journal-richtext::before {
+  content: "\f443";
+}
+.#{$bi-css-prefix}-journal-text::before {
+  content: "\f444";
+}
+.#{$bi-css-prefix}-journal-x::before {
+  content: "\f445";
+}
+.#{$bi-css-prefix}-journal::before {
+  content: "\f446";
+}
+.#{$bi-css-prefix}-journals::before {
+  content: "\f447";
+}
+.#{$bi-css-prefix}-joystick::before {
+  content: "\f448";
+}
+.#{$bi-css-prefix}-justify-left::before {
+  content: "\f449";
+}
+.#{$bi-css-prefix}-justify-right::before {
+  content: "\f44a";
+}
+.#{$bi-css-prefix}-justify::before {
+  content: "\f44b";
+}
+.#{$bi-css-prefix}-kanban-fill::before {
+  content: "\f44c";
+}
+.#{$bi-css-prefix}-kanban::before {
+  content: "\f44d";
+}
+.#{$bi-css-prefix}-key-fill::before {
+  content: "\f44e";
+}
+.#{$bi-css-prefix}-key::before {
+  content: "\f44f";
+}
+.#{$bi-css-prefix}-keyboard-fill::before {
+  content: "\f450";
+}
+.#{$bi-css-prefix}-keyboard::before {
+  content: "\f451";
+}
+.#{$bi-css-prefix}-ladder::before {
+  content: "\f452";
+}
+.#{$bi-css-prefix}-lamp-fill::before {
+  content: "\f453";
+}
+.#{$bi-css-prefix}-lamp::before {
+  content: "\f454";
+}
+.#{$bi-css-prefix}-laptop-fill::before {
+  content: "\f455";
+}
+.#{$bi-css-prefix}-laptop::before {
+  content: "\f456";
+}
+.#{$bi-css-prefix}-layer-backward::before {
+  content: "\f457";
+}
+.#{$bi-css-prefix}-layer-forward::before {
+  content: "\f458";
+}
+.#{$bi-css-prefix}-layers-fill::before {
+  content: "\f459";
+}
+.#{$bi-css-prefix}-layers-half::before {
+  content: "\f45a";
+}
+.#{$bi-css-prefix}-layers::before {
+  content: "\f45b";
+}
+.#{$bi-css-prefix}-layout-sidebar-inset-reverse::before {
+  content: "\f45c";
+}
+.#{$bi-css-prefix}-layout-sidebar-inset::before {
+  content: "\f45d";
+}
+.#{$bi-css-prefix}-layout-sidebar-reverse::before {
+  content: "\f45e";
+}
+.#{$bi-css-prefix}-layout-sidebar::before {
+  content: "\f45f";
+}
+.#{$bi-css-prefix}-layout-split::before {
+  content: "\f460";
+}
+.#{$bi-css-prefix}-layout-text-sidebar-reverse::before {
+  content: "\f461";
+}
+.#{$bi-css-prefix}-layout-text-sidebar::before {
+  content: "\f462";
+}
+.#{$bi-css-prefix}-layout-text-window-reverse::before {
+  content: "\f463";
+}
+.#{$bi-css-prefix}-layout-text-window::before {
+  content: "\f464";
+}
+.#{$bi-css-prefix}-layout-three-columns::before {
+  content: "\f465";
+}
+.#{$bi-css-prefix}-layout-wtf::before {
+  content: "\f466";
+}
+.#{$bi-css-prefix}-life-preserver::before {
+  content: "\f467";
+}
+.#{$bi-css-prefix}-lightbulb-fill::before {
+  content: "\f468";
+}
+.#{$bi-css-prefix}-lightbulb-off-fill::before {
+  content: "\f469";
+}
+.#{$bi-css-prefix}-lightbulb-off::before {
+  content: "\f46a";
+}
+.#{$bi-css-prefix}-lightbulb::before {
+  content: "\f46b";
+}
+.#{$bi-css-prefix}-lightning-charge-fill::before {
+  content: "\f46c";
+}
+.#{$bi-css-prefix}-lightning-charge::before {
+  content: "\f46d";
+}
+.#{$bi-css-prefix}-lightning-fill::before {
+  content: "\f46e";
+}
+.#{$bi-css-prefix}-lightning::before {
+  content: "\f46f";
+}
+.#{$bi-css-prefix}-link-45deg::before {
+  content: "\f470";
+}
+.#{$bi-css-prefix}-link::before {
+  content: "\f471";
+}
+.#{$bi-css-prefix}-linkedin::before {
+  content: "\f472";
+}
+.#{$bi-css-prefix}-list-check::before {
+  content: "\f473";
+}
+.#{$bi-css-prefix}-list-nested::before {
+  content: "\f474";
+}
+.#{$bi-css-prefix}-list-ol::before {
+  content: "\f475";
+}
+.#{$bi-css-prefix}-list-stars::before {
+  content: "\f476";
+}
+.#{$bi-css-prefix}-list-task::before {
+  content: "\f477";
+}
+.#{$bi-css-prefix}-list-ul::before {
+  content: "\f478";
+}
+.#{$bi-css-prefix}-list::before {
+  content: "\f479";
+}
+.#{$bi-css-prefix}-lock-fill::before {
+  content: "\f47a";
+}
+.#{$bi-css-prefix}-lock::before {
+  content: "\f47b";
+}
+.#{$bi-css-prefix}-mailbox::before {
+  content: "\f47c";
+}
+.#{$bi-css-prefix}-mailbox2::before {
+  content: "\f47d";
+}
+.#{$bi-css-prefix}-map-fill::before {
+  content: "\f47e";
+}
+.#{$bi-css-prefix}-map::before {
+  content: "\f47f";
+}
+.#{$bi-css-prefix}-markdown-fill::before {
+  content: "\f480";
+}
+.#{$bi-css-prefix}-markdown::before {
+  content: "\f481";
+}
+.#{$bi-css-prefix}-mask::before {
+  content: "\f482";
+}
+.#{$bi-css-prefix}-megaphone-fill::before {
+  content: "\f483";
+}
+.#{$bi-css-prefix}-megaphone::before {
+  content: "\f484";
+}
+.#{$bi-css-prefix}-menu-app-fill::before {
+  content: "\f485";
+}
+.#{$bi-css-prefix}-menu-app::before {
+  content: "\f486";
+}
+.#{$bi-css-prefix}-menu-button-fill::before {
+  content: "\f487";
+}
+.#{$bi-css-prefix}-menu-button-wide-fill::before {
+  content: "\f488";
+}
+.#{$bi-css-prefix}-menu-button-wide::before {
+  content: "\f489";
+}
+.#{$bi-css-prefix}-menu-button::before {
+  content: "\f48a";
+}
+.#{$bi-css-prefix}-menu-down::before {
+  content: "\f48b";
+}
+.#{$bi-css-prefix}-menu-up::before {
+  content: "\f48c";
+}
+.#{$bi-css-prefix}-mic-fill::before {
+  content: "\f48d";
+}
+.#{$bi-css-prefix}-mic-mute-fill::before {
+  content: "\f48e";
+}
+.#{$bi-css-prefix}-mic-mute::before {
+  content: "\f48f";
+}
+.#{$bi-css-prefix}-mic::before {
+  content: "\f490";
+}
+.#{$bi-css-prefix}-minecart-loaded::before {
+  content: "\f491";
+}
+.#{$bi-css-prefix}-minecart::before {
+  content: "\f492";
+}
+.#{$bi-css-prefix}-moisture::before {
+  content: "\f493";
+}
+.#{$bi-css-prefix}-moon-fill::before {
+  content: "\f494";
+}
+.#{$bi-css-prefix}-moon-stars-fill::before {
+  content: "\f495";
+}
+.#{$bi-css-prefix}-moon-stars::before {
+  content: "\f496";
+}
+.#{$bi-css-prefix}-moon::before {
+  content: "\f497";
+}
+.#{$bi-css-prefix}-mouse-fill::before {
+  content: "\f498";
+}
+.#{$bi-css-prefix}-mouse::before {
+  content: "\f499";
+}
+.#{$bi-css-prefix}-mouse2-fill::before {
+  content: "\f49a";
+}
+.#{$bi-css-prefix}-mouse2::before {
+  content: "\f49b";
+}
+.#{$bi-css-prefix}-mouse3-fill::before {
+  content: "\f49c";
+}
+.#{$bi-css-prefix}-mouse3::before {
+  content: "\f49d";
+}
+.#{$bi-css-prefix}-music-note-beamed::before {
+  content: "\f49e";
+}
+.#{$bi-css-prefix}-music-note-list::before {
+  content: "\f49f";
+}
+.#{$bi-css-prefix}-music-note::before {
+  content: "\f4a0";
+}
+.#{$bi-css-prefix}-music-player-fill::before {
+  content: "\f4a1";
+}
+.#{$bi-css-prefix}-music-player::before {
+  content: "\f4a2";
+}
+.#{$bi-css-prefix}-newspaper::before {
+  content: "\f4a3";
+}
+.#{$bi-css-prefix}-node-minus-fill::before {
+  content: "\f4a4";
+}
+.#{$bi-css-prefix}-node-minus::before {
+  content: "\f4a5";
+}
+.#{$bi-css-prefix}-node-plus-fill::before {
+  content: "\f4a6";
+}
+.#{$bi-css-prefix}-node-plus::before {
+  content: "\f4a7";
+}
+.#{$bi-css-prefix}-nut-fill::before {
+  content: "\f4a8";
+}
+.#{$bi-css-prefix}-nut::before {
+  content: "\f4a9";
+}
+.#{$bi-css-prefix}-octagon-fill::before {
+  content: "\f4aa";
+}
+.#{$bi-css-prefix}-octagon-half::before {
+  content: "\f4ab";
+}
+.#{$bi-css-prefix}-octagon::before {
+  content: "\f4ac";
+}
+.#{$bi-css-prefix}-option::before {
+  content: "\f4ad";
+}
+.#{$bi-css-prefix}-outlet::before {
+  content: "\f4ae";
+}
+.#{$bi-css-prefix}-paint-bucket::before {
+  content: "\f4af";
+}
+.#{$bi-css-prefix}-palette-fill::before {
+  content: "\f4b0";
+}
+.#{$bi-css-prefix}-palette::before {
+  content: "\f4b1";
+}
+.#{$bi-css-prefix}-palette2::before {
+  content: "\f4b2";
+}
+.#{$bi-css-prefix}-paperclip::before {
+  content: "\f4b3";
+}
+.#{$bi-css-prefix}-paragraph::before {
+  content: "\f4b4";
+}
+.#{$bi-css-prefix}-patch-check-fill::before {
+  content: "\f4b5";
+}
+.#{$bi-css-prefix}-patch-check::before {
+  content: "\f4b6";
+}
+.#{$bi-css-prefix}-patch-exclamation-fill::before {
+  content: "\f4b7";
+}
+.#{$bi-css-prefix}-patch-exclamation::before {
+  content: "\f4b8";
+}
+.#{$bi-css-prefix}-patch-minus-fill::before {
+  content: "\f4b9";
+}
+.#{$bi-css-prefix}-patch-minus::before {
+  content: "\f4ba";
+}
+.#{$bi-css-prefix}-patch-plus-fill::before {
+  content: "\f4bb";
+}
+.#{$bi-css-prefix}-patch-plus::before {
+  content: "\f4bc";
+}
+.#{$bi-css-prefix}-patch-question-fill::before {
+  content: "\f4bd";
+}
+.#{$bi-css-prefix}-patch-question::before {
+  content: "\f4be";
+}
+.#{$bi-css-prefix}-pause-btn-fill::before {
+  content: "\f4bf";
+}
+.#{$bi-css-prefix}-pause-btn::before {
+  content: "\f4c0";
+}
+.#{$bi-css-prefix}-pause-circle-fill::before {
+  content: "\f4c1";
+}
+.#{$bi-css-prefix}-pause-circle::before {
+  content: "\f4c2";
+}
+.#{$bi-css-prefix}-pause-fill::before {
+  content: "\f4c3";
+}
+.#{$bi-css-prefix}-pause::before {
+  content: "\f4c4";
+}
+.#{$bi-css-prefix}-peace-fill::before {
+  content: "\f4c5";
+}
+.#{$bi-css-prefix}-peace::before {
+  content: "\f4c6";
+}
+.#{$bi-css-prefix}-pen-fill::before {
+  content: "\f4c7";
+}
+.#{$bi-css-prefix}-pen::before {
+  content: "\f4c8";
+}
+.#{$bi-css-prefix}-pencil-fill::before {
+  content: "\f4c9";
+}
+.#{$bi-css-prefix}-pencil-square::before {
+  content: "\f4ca";
+}
+.#{$bi-css-prefix}-pencil::before {
+  content: "\f4cb";
+}
+.#{$bi-css-prefix}-pentagon-fill::before {
+  content: "\f4cc";
+}
+.#{$bi-css-prefix}-pentagon-half::before {
+  content: "\f4cd";
+}
+.#{$bi-css-prefix}-pentagon::before {
+  content: "\f4ce";
+}
+.#{$bi-css-prefix}-people-fill::before {
+  content: "\f4cf";
+}
+.#{$bi-css-prefix}-people::before {
+  content: "\f4d0";
+}
+.#{$bi-css-prefix}-percent::before {
+  content: "\f4d1";
+}
+.#{$bi-css-prefix}-person-badge-fill::before {
+  content: "\f4d2";
+}
+.#{$bi-css-prefix}-person-badge::before {
+  content: "\f4d3";
+}
+.#{$bi-css-prefix}-person-bounding-box::before {
+  content: "\f4d4";
+}
+.#{$bi-css-prefix}-person-check-fill::before {
+  content: "\f4d5";
+}
+.#{$bi-css-prefix}-person-check::before {
+  content: "\f4d6";
+}
+.#{$bi-css-prefix}-person-circle::before {
+  content: "\f4d7";
+}
+.#{$bi-css-prefix}-person-dash-fill::before {
+  content: "\f4d8";
+}
+.#{$bi-css-prefix}-person-dash::before {
+  content: "\f4d9";
+}
+.#{$bi-css-prefix}-person-fill::before {
+  content: "\f4da";
+}
+.#{$bi-css-prefix}-person-lines-fill::before {
+  content: "\f4db";
+}
+.#{$bi-css-prefix}-person-plus-fill::before {
+  content: "\f4dc";
+}
+.#{$bi-css-prefix}-person-plus::before {
+  content: "\f4dd";
+}
+.#{$bi-css-prefix}-person-square::before {
+  content: "\f4de";
+}
+.#{$bi-css-prefix}-person-x-fill::before {
+  content: "\f4df";
+}
+.#{$bi-css-prefix}-person-x::before {
+  content: "\f4e0";
+}
+.#{$bi-css-prefix}-person::before {
+  content: "\f4e1";
+}
+.#{$bi-css-prefix}-phone-fill::before {
+  content: "\f4e2";
+}
+.#{$bi-css-prefix}-phone-landscape-fill::before {
+  content: "\f4e3";
+}
+.#{$bi-css-prefix}-phone-landscape::before {
+  content: "\f4e4";
+}
+.#{$bi-css-prefix}-phone-vibrate-fill::before {
+  content: "\f4e5";
+}
+.#{$bi-css-prefix}-phone-vibrate::before {
+  content: "\f4e6";
+}
+.#{$bi-css-prefix}-phone::before {
+  content: "\f4e7";
+}
+.#{$bi-css-prefix}-pie-chart-fill::before {
+  content: "\f4e8";
+}
+.#{$bi-css-prefix}-pie-chart::before {
+  content: "\f4e9";
+}
+.#{$bi-css-prefix}-pin-angle-fill::before {
+  content: "\f4ea";
+}
+.#{$bi-css-prefix}-pin-angle::before {
+  content: "\f4eb";
+}
+.#{$bi-css-prefix}-pin-fill::before {
+  content: "\f4ec";
+}
+.#{$bi-css-prefix}-pin::before {
+  content: "\f4ed";
+}
+.#{$bi-css-prefix}-pip-fill::before {
+  content: "\f4ee";
+}
+.#{$bi-css-prefix}-pip::before {
+  content: "\f4ef";
+}
+.#{$bi-css-prefix}-play-btn-fill::before {
+  content: "\f4f0";
+}
+.#{$bi-css-prefix}-play-btn::before {
+  content: "\f4f1";
+}
+.#{$bi-css-prefix}-play-circle-fill::before {
+  content: "\f4f2";
+}
+.#{$bi-css-prefix}-play-circle::before {
+  content: "\f4f3";
+}
+.#{$bi-css-prefix}-play-fill::before {
+  content: "\f4f4";
+}
+.#{$bi-css-prefix}-play::before {
+  content: "\f4f5";
+}
+.#{$bi-css-prefix}-plug-fill::before {
+  content: "\f4f6";
+}
+.#{$bi-css-prefix}-plug::before {
+  content: "\f4f7";
+}
+.#{$bi-css-prefix}-plus-circle-dotted::before {
+  content: "\f4f8";
+}
+.#{$bi-css-prefix}-plus-circle-fill::before {
+  content: "\f4f9";
+}
+.#{$bi-css-prefix}-plus-circle::before {
+  content: "\f4fa";
+}
+.#{$bi-css-prefix}-plus-square-dotted::before {
+  content: "\f4fb";
+}
+.#{$bi-css-prefix}-plus-square-fill::before {
+  content: "\f4fc";
+}
+.#{$bi-css-prefix}-plus-square::before {
+  content: "\f4fd";
+}
+.#{$bi-css-prefix}-plus::before {
+  content: "\f4fe";
+}
+.#{$bi-css-prefix}-power::before {
+  content: "\f4ff";
+}
+.#{$bi-css-prefix}-printer-fill::before {
+  content: "\f500";
+}
+.#{$bi-css-prefix}-printer::before {
+  content: "\f501";
+}
+.#{$bi-css-prefix}-puzzle-fill::before {
+  content: "\f502";
+}
+.#{$bi-css-prefix}-puzzle::before {
+  content: "\f503";
+}
+.#{$bi-css-prefix}-question-circle-fill::before {
+  content: "\f504";
+}
+.#{$bi-css-prefix}-question-circle::before {
+  content: "\f505";
+}
+.#{$bi-css-prefix}-question-diamond-fill::before {
+  content: "\f506";
+}
+.#{$bi-css-prefix}-question-diamond::before {
+  content: "\f507";
+}
+.#{$bi-css-prefix}-question-octagon-fill::before {
+  content: "\f508";
+}
+.#{$bi-css-prefix}-question-octagon::before {
+  content: "\f509";
+}
+.#{$bi-css-prefix}-question-square-fill::before {
+  content: "\f50a";
+}
+.#{$bi-css-prefix}-question-square::before {
+  content: "\f50b";
+}
+.#{$bi-css-prefix}-question::before {
+  content: "\f50c";
+}
+.#{$bi-css-prefix}-rainbow::before {
+  content: "\f50d";
+}
+.#{$bi-css-prefix}-receipt-cutoff::before {
+  content: "\f50e";
+}
+.#{$bi-css-prefix}-receipt::before {
+  content: "\f50f";
+}
+.#{$bi-css-prefix}-reception-0::before {
+  content: "\f510";
+}
+.#{$bi-css-prefix}-reception-1::before {
+  content: "\f511";
+}
+.#{$bi-css-prefix}-reception-2::before {
+  content: "\f512";
+}
+.#{$bi-css-prefix}-reception-3::before {
+  content: "\f513";
+}
+.#{$bi-css-prefix}-reception-4::before {
+  content: "\f514";
+}
+.#{$bi-css-prefix}-record-btn-fill::before {
+  content: "\f515";
+}
+.#{$bi-css-prefix}-record-btn::before {
+  content: "\f516";
+}
+.#{$bi-css-prefix}-record-circle-fill::before {
+  content: "\f517";
+}
+.#{$bi-css-prefix}-record-circle::before {
+  content: "\f518";
+}
+.#{$bi-css-prefix}-record-fill::before {
+  content: "\f519";
+}
+.#{$bi-css-prefix}-record::before {
+  content: "\f51a";
+}
+.#{$bi-css-prefix}-record2-fill::before {
+  content: "\f51b";
+}
+.#{$bi-css-prefix}-record2::before {
+  content: "\f51c";
+}
+.#{$bi-css-prefix}-reply-all-fill::before {
+  content: "\f51d";
+}
+.#{$bi-css-prefix}-reply-all::before {
+  content: "\f51e";
+}
+.#{$bi-css-prefix}-reply-fill::before {
+  content: "\f51f";
+}
+.#{$bi-css-prefix}-reply::before {
+  content: "\f520";
+}
+.#{$bi-css-prefix}-rss-fill::before {
+  content: "\f521";
+}
+.#{$bi-css-prefix}-rss::before {
+  content: "\f522";
+}
+.#{$bi-css-prefix}-rulers::before {
+  content: "\f523";
+}
+.#{$bi-css-prefix}-save-fill::before {
+  content: "\f524";
+}
+.#{$bi-css-prefix}-save::before {
+  content: "\f525";
+}
+.#{$bi-css-prefix}-save2-fill::before {
+  content: "\f526";
+}
+.#{$bi-css-prefix}-save2::before {
+  content: "\f527";
+}
+.#{$bi-css-prefix}-scissors::before {
+  content: "\f528";
+}
+.#{$bi-css-prefix}-screwdriver::before {
+  content: "\f529";
+}
+.#{$bi-css-prefix}-search::before {
+  content: "\f52a";
+}
+.#{$bi-css-prefix}-segmented-nav::before {
+  content: "\f52b";
+}
+.#{$bi-css-prefix}-server::before {
+  content: "\f52c";
+}
+.#{$bi-css-prefix}-share-fill::before {
+  content: "\f52d";
+}
+.#{$bi-css-prefix}-share::before {
+  content: "\f52e";
+}
+.#{$bi-css-prefix}-shield-check::before {
+  content: "\f52f";
+}
+.#{$bi-css-prefix}-shield-exclamation::before {
+  content: "\f530";
+}
+.#{$bi-css-prefix}-shield-fill-check::before {
+  content: "\f531";
+}
+.#{$bi-css-prefix}-shield-fill-exclamation::before {
+  content: "\f532";
+}
+.#{$bi-css-prefix}-shield-fill-minus::before {
+  content: "\f533";
+}
+.#{$bi-css-prefix}-shield-fill-plus::before {
+  content: "\f534";
+}
+.#{$bi-css-prefix}-shield-fill-x::before {
+  content: "\f535";
+}
+.#{$bi-css-prefix}-shield-fill::before {
+  content: "\f536";
+}
+.#{$bi-css-prefix}-shield-lock-fill::before {
+  content: "\f537";
+}
+.#{$bi-css-prefix}-shield-lock::before {
+  content: "\f538";
+}
+.#{$bi-css-prefix}-shield-minus::before {
+  content: "\f539";
+}
+.#{$bi-css-prefix}-shield-plus::before {
+  content: "\f53a";
+}
+.#{$bi-css-prefix}-shield-shaded::before {
+  content: "\f53b";
+}
+.#{$bi-css-prefix}-shield-slash-fill::before {
+  content: "\f53c";
+}
+.#{$bi-css-prefix}-shield-slash::before {
+  content: "\f53d";
+}
+.#{$bi-css-prefix}-shield-x::before {
+  content: "\f53e";
+}
+.#{$bi-css-prefix}-shield::before {
+  content: "\f53f";
+}
+.#{$bi-css-prefix}-shift-fill::before {
+  content: "\f540";
+}
+.#{$bi-css-prefix}-shift::before {
+  content: "\f541";
+}
+.#{$bi-css-prefix}-shop-window::before {
+  content: "\f542";
+}
+.#{$bi-css-prefix}-shop::before {
+  content: "\f543";
+}
+.#{$bi-css-prefix}-shuffle::before {
+  content: "\f544";
+}
+.#{$bi-css-prefix}-signpost-2-fill::before {
+  content: "\f545";
+}
+.#{$bi-css-prefix}-signpost-2::before {
+  content: "\f546";
+}
+.#{$bi-css-prefix}-signpost-fill::before {
+  content: "\f547";
+}
+.#{$bi-css-prefix}-signpost-split-fill::before {
+  content: "\f548";
+}
+.#{$bi-css-prefix}-signpost-split::before {
+  content: "\f549";
+}
+.#{$bi-css-prefix}-signpost::before {
+  content: "\f54a";
+}
+.#{$bi-css-prefix}-sim-fill::before {
+  content: "\f54b";
+}
+.#{$bi-css-prefix}-sim::before {
+  content: "\f54c";
+}
+.#{$bi-css-prefix}-skip-backward-btn-fill::before {
+  content: "\f54d";
+}
+.#{$bi-css-prefix}-skip-backward-btn::before {
+  content: "\f54e";
+}
+.#{$bi-css-prefix}-skip-backward-circle-fill::before {
+  content: "\f54f";
+}
+.#{$bi-css-prefix}-skip-backward-circle::before {
+  content: "\f550";
+}
+.#{$bi-css-prefix}-skip-backward-fill::before {
+  content: "\f551";
+}
+.#{$bi-css-prefix}-skip-backward::before {
+  content: "\f552";
+}
+.#{$bi-css-prefix}-skip-end-btn-fill::before {
+  content: "\f553";
+}
+.#{$bi-css-prefix}-skip-end-btn::before {
+  content: "\f554";
+}
+.#{$bi-css-prefix}-skip-end-circle-fill::before {
+  content: "\f555";
+}
+.#{$bi-css-prefix}-skip-end-circle::before {
+  content: "\f556";
+}
+.#{$bi-css-prefix}-skip-end-fill::before {
+  content: "\f557";
+}
+.#{$bi-css-prefix}-skip-end::before {
+  content: "\f558";
+}
+.#{$bi-css-prefix}-skip-forward-btn-fill::before {
+  content: "\f559";
+}
+.#{$bi-css-prefix}-skip-forward-btn::before {
+  content: "\f55a";
+}
+.#{$bi-css-prefix}-skip-forward-circle-fill::before {
+  content: "\f55b";
+}
+.#{$bi-css-prefix}-skip-forward-circle::before {
+  content: "\f55c";
+}
+.#{$bi-css-prefix}-skip-forward-fill::before {
+  content: "\f55d";
+}
+.#{$bi-css-prefix}-skip-forward::before {
+  content: "\f55e";
+}
+.#{$bi-css-prefix}-skip-start-btn-fill::before {
+  content: "\f55f";
+}
+.#{$bi-css-prefix}-skip-start-btn::before {
+  content: "\f560";
+}
+.#{$bi-css-prefix}-skip-start-circle-fill::before {
+  content: "\f561";
+}
+.#{$bi-css-prefix}-skip-start-circle::before {
+  content: "\f562";
+}
+.#{$bi-css-prefix}-skip-start-fill::before {
+  content: "\f563";
+}
+.#{$bi-css-prefix}-skip-start::before {
+  content: "\f564";
+}
+.#{$bi-css-prefix}-slack::before {
+  content: "\f565";
+}
+.#{$bi-css-prefix}-slash-circle-fill::before {
+  content: "\f566";
+}
+.#{$bi-css-prefix}-slash-circle::before {
+  content: "\f567";
+}
+.#{$bi-css-prefix}-slash-square-fill::before {
+  content: "\f568";
+}
+.#{$bi-css-prefix}-slash-square::before {
+  content: "\f569";
+}
+.#{$bi-css-prefix}-slash::before {
+  content: "\f56a";
+}
+.#{$bi-css-prefix}-sliders::before {
+  content: "\f56b";
+}
+.#{$bi-css-prefix}-smartwatch::before {
+  content: "\f56c";
+}
+.#{$bi-css-prefix}-snow::before {
+  content: "\f56d";
+}
+.#{$bi-css-prefix}-snow2::before {
+  content: "\f56e";
+}
+.#{$bi-css-prefix}-snow3::before {
+  content: "\f56f";
+}
+.#{$bi-css-prefix}-sort-alpha-down-alt::before {
+  content: "\f570";
+}
+.#{$bi-css-prefix}-sort-alpha-down::before {
+  content: "\f571";
+}
+.#{$bi-css-prefix}-sort-alpha-up-alt::before {
+  content: "\f572";
+}
+.#{$bi-css-prefix}-sort-alpha-up::before {
+  content: "\f573";
+}
+.#{$bi-css-prefix}-sort-down-alt::before {
+  content: "\f574";
+}
+.#{$bi-css-prefix}-sort-down::before {
+  content: "\f575";
+}
+.#{$bi-css-prefix}-sort-numeric-down-alt::before {
+  content: "\f576";
+}
+.#{$bi-css-prefix}-sort-numeric-down::before {
+  content: "\f577";
+}
+.#{$bi-css-prefix}-sort-numeric-up-alt::before {
+  content: "\f578";
+}
+.#{$bi-css-prefix}-sort-numeric-up::before {
+  content: "\f579";
+}
+.#{$bi-css-prefix}-sort-up-alt::before {
+  content: "\f57a";
+}
+.#{$bi-css-prefix}-sort-up::before {
+  content: "\f57b";
+}
+.#{$bi-css-prefix}-soundwave::before {
+  content: "\f57c";
+}
+.#{$bi-css-prefix}-speaker-fill::before {
+  content: "\f57d";
+}
+.#{$bi-css-prefix}-speaker::before {
+  content: "\f57e";
+}
+.#{$bi-css-prefix}-speedometer::before {
+  content: "\f57f";
+}
+.#{$bi-css-prefix}-speedometer2::before {
+  content: "\f580";
+}
+.#{$bi-css-prefix}-spellcheck::before {
+  content: "\f581";
+}
+.#{$bi-css-prefix}-square-fill::before {
+  content: "\f582";
+}
+.#{$bi-css-prefix}-square-half::before {
+  content: "\f583";
+}
+.#{$bi-css-prefix}-square::before {
+  content: "\f584";
+}
+.#{$bi-css-prefix}-stack::before {
+  content: "\f585";
+}
+.#{$bi-css-prefix}-star-fill::before {
+  content: "\f586";
+}
+.#{$bi-css-prefix}-star-half::before {
+  content: "\f587";
+}
+.#{$bi-css-prefix}-star::before {
+  content: "\f588";
+}
+.#{$bi-css-prefix}-stars::before {
+  content: "\f589";
+}
+.#{$bi-css-prefix}-stickies-fill::before {
+  content: "\f58a";
+}
+.#{$bi-css-prefix}-stickies::before {
+  content: "\f58b";
+}
+.#{$bi-css-prefix}-sticky-fill::before {
+  content: "\f58c";
+}
+.#{$bi-css-prefix}-sticky::before {
+  content: "\f58d";
+}
+.#{$bi-css-prefix}-stop-btn-fill::before {
+  content: "\f58e";
+}
+.#{$bi-css-prefix}-stop-btn::before {
+  content: "\f58f";
+}
+.#{$bi-css-prefix}-stop-circle-fill::before {
+  content: "\f590";
+}
+.#{$bi-css-prefix}-stop-circle::before {
+  content: "\f591";
+}
+.#{$bi-css-prefix}-stop-fill::before {
+  content: "\f592";
+}
+.#{$bi-css-prefix}-stop::before {
+  content: "\f593";
+}
+.#{$bi-css-prefix}-stoplights-fill::before {
+  content: "\f594";
+}
+.#{$bi-css-prefix}-stoplights::before {
+  content: "\f595";
+}
+.#{$bi-css-prefix}-stopwatch-fill::before {
+  content: "\f596";
+}
+.#{$bi-css-prefix}-stopwatch::before {
+  content: "\f597";
+}
+.#{$bi-css-prefix}-subtract::before {
+  content: "\f598";
+}
+.#{$bi-css-prefix}-suit-club-fill::before {
+  content: "\f599";
+}
+.#{$bi-css-prefix}-suit-club::before {
+  content: "\f59a";
+}
+.#{$bi-css-prefix}-suit-diamond-fill::before {
+  content: "\f59b";
+}
+.#{$bi-css-prefix}-suit-diamond::before {
+  content: "\f59c";
+}
+.#{$bi-css-prefix}-suit-heart-fill::before {
+  content: "\f59d";
+}
+.#{$bi-css-prefix}-suit-heart::before {
+  content: "\f59e";
+}
+.#{$bi-css-prefix}-suit-spade-fill::before {
+  content: "\f59f";
+}
+.#{$bi-css-prefix}-suit-spade::before {
+  content: "\f5a0";
+}
+.#{$bi-css-prefix}-sun-fill::before {
+  content: "\f5a1";
+}
+.#{$bi-css-prefix}-sun::before {
+  content: "\f5a2";
+}
+.#{$bi-css-prefix}-sunglasses::before {
+  content: "\f5a3";
+}
+.#{$bi-css-prefix}-sunrise-fill::before {
+  content: "\f5a4";
+}
+.#{$bi-css-prefix}-sunrise::before {
+  content: "\f5a5";
+}
+.#{$bi-css-prefix}-sunset-fill::before {
+  content: "\f5a6";
+}
+.#{$bi-css-prefix}-sunset::before {
+  content: "\f5a7";
+}
+.#{$bi-css-prefix}-symmetry-horizontal::before {
+  content: "\f5a8";
+}
+.#{$bi-css-prefix}-symmetry-vertical::before {
+  content: "\f5a9";
+}
+.#{$bi-css-prefix}-table::before {
+  content: "\f5aa";
+}
+.#{$bi-css-prefix}-tablet-fill::before {
+  content: "\f5ab";
+}
+.#{$bi-css-prefix}-tablet-landscape-fill::before {
+  content: "\f5ac";
+}
+.#{$bi-css-prefix}-tablet-landscape::before {
+  content: "\f5ad";
+}
+.#{$bi-css-prefix}-tablet::before {
+  content: "\f5ae";
+}
+.#{$bi-css-prefix}-tag-fill::before {
+  content: "\f5af";
+}
+.#{$bi-css-prefix}-tag::before {
+  content: "\f5b0";
+}
+.#{$bi-css-prefix}-tags-fill::before {
+  content: "\f5b1";
+}
+.#{$bi-css-prefix}-tags::before {
+  content: "\f5b2";
+}
+.#{$bi-css-prefix}-telegram::before {
+  content: "\f5b3";
+}
+.#{$bi-css-prefix}-telephone-fill::before {
+  content: "\f5b4";
+}
+.#{$bi-css-prefix}-telephone-forward-fill::before {
+  content: "\f5b5";
+}
+.#{$bi-css-prefix}-telephone-forward::before {
+  content: "\f5b6";
+}
+.#{$bi-css-prefix}-telephone-inbound-fill::before {
+  content: "\f5b7";
+}
+.#{$bi-css-prefix}-telephone-inbound::before {
+  content: "\f5b8";
+}
+.#{$bi-css-prefix}-telephone-minus-fill::before {
+  content: "\f5b9";
+}
+.#{$bi-css-prefix}-telephone-minus::before {
+  content: "\f5ba";
+}
+.#{$bi-css-prefix}-telephone-outbound-fill::before {
+  content: "\f5bb";
+}
+.#{$bi-css-prefix}-telephone-outbound::before {
+  content: "\f5bc";
+}
+.#{$bi-css-prefix}-telephone-plus-fill::before {
+  content: "\f5bd";
+}
+.#{$bi-css-prefix}-telephone-plus::before {
+  content: "\f5be";
+}
+.#{$bi-css-prefix}-telephone-x-fill::before {
+  content: "\f5bf";
+}
+.#{$bi-css-prefix}-telephone-x::before {
+  content: "\f5c0";
+}
+.#{$bi-css-prefix}-telephone::before {
+  content: "\f5c1";
+}
+.#{$bi-css-prefix}-terminal-fill::before {
+  content: "\f5c2";
+}
+.#{$bi-css-prefix}-terminal::before {
+  content: "\f5c3";
+}
+.#{$bi-css-prefix}-text-center::before {
+  content: "\f5c4";
+}
+.#{$bi-css-prefix}-text-indent-left::before {
+  content: "\f5c5";
+}
+.#{$bi-css-prefix}-text-indent-right::before {
+  content: "\f5c6";
+}
+.#{$bi-css-prefix}-text-left::before {
+  content: "\f5c7";
+}
+.#{$bi-css-prefix}-text-paragraph::before {
+  content: "\f5c8";
+}
+.#{$bi-css-prefix}-text-right::before {
+  content: "\f5c9";
+}
+.#{$bi-css-prefix}-textarea-resize::before {
+  content: "\f5ca";
+}
+.#{$bi-css-prefix}-textarea-t::before {
+  content: "\f5cb";
+}
+.#{$bi-css-prefix}-textarea::before {
+  content: "\f5cc";
+}
+.#{$bi-css-prefix}-thermometer-half::before {
+  content: "\f5cd";
+}
+.#{$bi-css-prefix}-thermometer-high::before {
+  content: "\f5ce";
+}
+.#{$bi-css-prefix}-thermometer-low::before {
+  content: "\f5cf";
+}
+.#{$bi-css-prefix}-thermometer-snow::before {
+  content: "\f5d0";
+}
+.#{$bi-css-prefix}-thermometer-sun::before {
+  content: "\f5d1";
+}
+.#{$bi-css-prefix}-thermometer::before {
+  content: "\f5d2";
+}
+.#{$bi-css-prefix}-three-dots-vertical::before {
+  content: "\f5d3";
+}
+.#{$bi-css-prefix}-three-dots::before {
+  content: "\f5d4";
+}
+.#{$bi-css-prefix}-toggle-off::before {
+  content: "\f5d5";
+}
+.#{$bi-css-prefix}-toggle-on::before {
+  content: "\f5d6";
+}
+.#{$bi-css-prefix}-toggle2-off::before {
+  content: "\f5d7";
+}
+.#{$bi-css-prefix}-toggle2-on::before {
+  content: "\f5d8";
+}
+.#{$bi-css-prefix}-toggles::before {
+  content: "\f5d9";
+}
+.#{$bi-css-prefix}-toggles2::before {
+  content: "\f5da";
+}
+.#{$bi-css-prefix}-tools::before {
+  content: "\f5db";
+}
+.#{$bi-css-prefix}-tornado::before {
+  content: "\f5dc";
+}
+.#{$bi-css-prefix}-trash-fill::before {
+  content: "\f5dd";
+}
+.#{$bi-css-prefix}-trash::before {
+  content: "\f5de";
+}
+.#{$bi-css-prefix}-trash2-fill::before {
+  content: "\f5df";
+}
+.#{$bi-css-prefix}-trash2::before {
+  content: "\f5e0";
+}
+.#{$bi-css-prefix}-tree-fill::before {
+  content: "\f5e1";
+}
+.#{$bi-css-prefix}-tree::before {
+  content: "\f5e2";
+}
+.#{$bi-css-prefix}-triangle-fill::before {
+  content: "\f5e3";
+}
+.#{$bi-css-prefix}-triangle-half::before {
+  content: "\f5e4";
+}
+.#{$bi-css-prefix}-triangle::before {
+  content: "\f5e5";
+}
+.#{$bi-css-prefix}-trophy-fill::before {
+  content: "\f5e6";
+}
+.#{$bi-css-prefix}-trophy::before {
+  content: "\f5e7";
+}
+.#{$bi-css-prefix}-tropical-storm::before {
+  content: "\f5e8";
+}
+.#{$bi-css-prefix}-truck-flatbed::before {
+  content: "\f5e9";
+}
+.#{$bi-css-prefix}-truck::before {
+  content: "\f5ea";
+}
+.#{$bi-css-prefix}-tsunami::before {
+  content: "\f5eb";
+}
+.#{$bi-css-prefix}-tv-fill::before {
+  content: "\f5ec";
+}
+.#{$bi-css-prefix}-tv::before {
+  content: "\f5ed";
+}
+.#{$bi-css-prefix}-twitch::before {
+  content: "\f5ee";
+}
+.#{$bi-css-prefix}-twitter::before {
+  content: "\f5ef";
+}
+.#{$bi-css-prefix}-type-bold::before {
+  content: "\f5f0";
+}
+.#{$bi-css-prefix}-type-h1::before {
+  content: "\f5f1";
+}
+.#{$bi-css-prefix}-type-h2::before {
+  content: "\f5f2";
+}
+.#{$bi-css-prefix}-type-h3::before {
+  content: "\f5f3";
+}
+.#{$bi-css-prefix}-type-italic::before {
+  content: "\f5f4";
+}
+.#{$bi-css-prefix}-type-strikethrough::before {
+  content: "\f5f5";
+}
+.#{$bi-css-prefix}-type-underline::before {
+  content: "\f5f6";
+}
+.#{$bi-css-prefix}-type::before {
+  content: "\f5f7";
+}
+.#{$bi-css-prefix}-ui-checks-grid::before {
+  content: "\f5f8";
+}
+.#{$bi-css-prefix}-ui-checks::before {
+  content: "\f5f9";
+}
+.#{$bi-css-prefix}-ui-radios-grid::before {
+  content: "\f5fa";
+}
+.#{$bi-css-prefix}-ui-radios::before {
+  content: "\f5fb";
+}
+.#{$bi-css-prefix}-umbrella-fill::before {
+  content: "\f5fc";
+}
+.#{$bi-css-prefix}-umbrella::before {
+  content: "\f5fd";
+}
+.#{$bi-css-prefix}-union::before {
+  content: "\f5fe";
+}
+.#{$bi-css-prefix}-unlock-fill::before {
+  content: "\f5ff";
+}
+.#{$bi-css-prefix}-unlock::before {
+  content: "\f600";
+}
+.#{$bi-css-prefix}-upc-scan::before {
+  content: "\f601";
+}
+.#{$bi-css-prefix}-upc::before {
+  content: "\f602";
+}
+.#{$bi-css-prefix}-upload::before {
+  content: "\f603";
+}
+.#{$bi-css-prefix}-vector-pen::before {
+  content: "\f604";
+}
+.#{$bi-css-prefix}-view-list::before {
+  content: "\f605";
+}
+.#{$bi-css-prefix}-view-stacked::before {
+  content: "\f606";
+}
+.#{$bi-css-prefix}-vinyl-fill::before {
+  content: "\f607";
+}
+.#{$bi-css-prefix}-vinyl::before {
+  content: "\f608";
+}
+.#{$bi-css-prefix}-voicemail::before {
+  content: "\f609";
+}
+.#{$bi-css-prefix}-volume-down-fill::before {
+  content: "\f60a";
+}
+.#{$bi-css-prefix}-volume-down::before {
+  content: "\f60b";
+}
+.#{$bi-css-prefix}-volume-mute-fill::before {
+  content: "\f60c";
+}
+.#{$bi-css-prefix}-volume-mute::before {
+  content: "\f60d";
+}
+.#{$bi-css-prefix}-volume-off-fill::before {
+  content: "\f60e";
+}
+.#{$bi-css-prefix}-volume-off::before {
+  content: "\f60f";
+}
+.#{$bi-css-prefix}-volume-up-fill::before {
+  content: "\f610";
+}
+.#{$bi-css-prefix}-volume-up::before {
+  content: "\f611";
+}
+.#{$bi-css-prefix}-vr::before {
+  content: "\f612";
+}
+.#{$bi-css-prefix}-wallet-fill::before {
+  content: "\f613";
+}
+.#{$bi-css-prefix}-wallet::before {
+  content: "\f614";
+}
+.#{$bi-css-prefix}-wallet2::before {
+  content: "\f615";
+}
+.#{$bi-css-prefix}-watch::before {
+  content: "\f616";
+}
+.#{$bi-css-prefix}-water::before {
+  content: "\f617";
+}
+.#{$bi-css-prefix}-whatsapp::before {
+  content: "\f618";
+}
+.#{$bi-css-prefix}-wifi-1::before {
+  content: "\f619";
+}
+.#{$bi-css-prefix}-wifi-2::before {
+  content: "\f61a";
+}
+.#{$bi-css-prefix}-wifi-off::before {
+  content: "\f61b";
+}
+.#{$bi-css-prefix}-wifi::before {
+  content: "\f61c";
+}
+.#{$bi-css-prefix}-wind::before {
+  content: "\f61d";
+}
+.#{$bi-css-prefix}-window-dock::before {
+  content: "\f61e";
+}
+.#{$bi-css-prefix}-window-sidebar::before {
+  content: "\f61f";
+}
+.#{$bi-css-prefix}-window::before {
+  content: "\f620";
+}
+.#{$bi-css-prefix}-wrench::before {
+  content: "\f621";
+}
+.#{$bi-css-prefix}-x-circle-fill::before {
+  content: "\f622";
+}
+.#{$bi-css-prefix}-x-circle::before {
+  content: "\f623";
+}
+.#{$bi-css-prefix}-x-diamond-fill::before {
+  content: "\f624";
+}
+.#{$bi-css-prefix}-x-diamond::before {
+  content: "\f625";
+}
+.#{$bi-css-prefix}-x-octagon-fill::before {
+  content: "\f626";
+}
+.#{$bi-css-prefix}-x-octagon::before {
+  content: "\f627";
+}
+.#{$bi-css-prefix}-x-square-fill::before {
+  content: "\f628";
+}
+.#{$bi-css-prefix}-x-square::before {
+  content: "\f629";
+}
+.#{$bi-css-prefix}-x::before {
+  content: "\f62a";
+}
+.#{$bi-css-prefix}-youtube::before {
+  content: "\f62b";
+}
+.#{$bi-css-prefix}-zoom-in::before {
+  content: "\f62c";
+}
+.#{$bi-css-prefix}-zoom-out::before {
+  content: "\f62d";
+}

@@ -1,0 +1,33 @@
+{
+  "name": "icons",
+  "version": "1.0.0",
+  "description": "All Icon From Web Fonts",
+  "scripts": {
+    "dev": "gulp css-dev",
+    "prod": "gulp css-min",
+    "update": "gulp dep-update",
+    "build": "gulp clean && gulp css-dev && gulp css-min && gulp build-copy"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "Fontawesome",
+    "Bootstrap Icons"
+  ],
+  "author": "Ade Reksi Susanto",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-header": "^2.0.9",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap-icons": "^1.4.0"
+  }
+}
