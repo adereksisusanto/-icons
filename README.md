@@ -3,7 +3,7 @@
 ## Instalation
 
 ```bash
-$ npm install
+$ npm install @adereksisusanto/icons
 ```
 
 ## Fonts

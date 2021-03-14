@@ -8,7 +8,7 @@ const gulp = require("gulp"),
   del = require("del");
 
 const pkg = require("./package.json");
-const pkgName = pkg.name.toLowerCase();
+const pkgName = "icons";
 const pkgNameJSCore = pkgName + ".core";
 const pkgNameJSMain = pkgName + ".app";
 

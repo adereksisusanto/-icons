@@ -1,5 +1,5 @@
 {
-  "name": "icons",
+  "name": "@adereksisusanto/icons",
   "version": "1.0.0",
   "description": "All Icon From Web Fonts",
   "scripts": {
@@ -16,6 +16,10 @@
   ],
   "author": "Ade Reksi Susanto",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adereksisusanto/icons"
+  },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "del": "^6.0.0",
