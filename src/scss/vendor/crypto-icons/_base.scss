@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "coins";
+    src: url("#{$crypto-icon-path}coins.ttf") format("truetype"),
+        url("#{$crypto-icon-path}coins.woff") format("woff"),
+        url("#{$crypto-icon-path}coins.svg#coins") format("svg");
+}
+
+.#{$crypto-icon-prefix} {
+    font-family: "coins", sans-serif !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
