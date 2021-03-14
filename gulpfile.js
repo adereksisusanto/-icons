@@ -44,11 +44,13 @@ const files = {
       allicons: path.src.css + "all." + pkgName + ".css",
       fontawesomeicons: path.src.css + "fontawesome." + pkgName + ".css",
       bootstrapicons: path.src.css + "bootstrap." + pkgName + ".css",
+      themifyicons: path.src.css + "themify." + pkgName + ".css",
     },
     scss: {
       allicons: path.src.scss + "all-icons.scss",
       fontawesomeicons: path.src.scss + "fontawesome-icons.scss",
       bootstrapicons: path.src.scss + "bootstrap-icons.scss",
+      themifyicons: path.src.scss + "themify-icons.scss",
     },
   },
   build: {
@@ -74,6 +76,11 @@ const dependencies = {
       base: path.src.fonts + "bootstrap-icons/",
       src: "node_modules/bootstrap-icons/font/fonts/**/*",
       dest: path.src.fonts + "bootstrap-icons/",
+    },
+    themifyicons: {
+      base: path.src.fonts + "themify-icons/",
+      src: "node_modules/@icon/themify-icons/*.{ttf,woff,eot,svg}",
+      dest: path.src.fonts + "themify-icons/",
     },
   },
 };
@@ -133,6 +140,17 @@ gulp.task("css-scss-bootstrap-icons", () => {
     .pipe(rename({ basename: "bootstrap." + pkgName }))
     .pipe(gulp.dest(path.src.css));
 });
+gulp.task("css-scss-themify-icons", () => {
+  return gulp
+    .src(files.src.scss.themifyicons)
+    .pipe(
+      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
+    )
+    .pipe(postcss([autoprefixer()]))
+    .pipe(header(banner, { pkg: pkg }))
+    .pipe(rename({ basename: "themify." + pkgName }))
+    .pipe(gulp.dest(path.src.css));
+});
 
 gulp.task("css-min-all-icons", () => {
   return gulp
@@ -158,6 +176,14 @@ gulp.task("css-min-bootstrap-icons", () => {
     .pipe(rename({ suffix: ".min" }))
     .pipe(gulp.dest(path.src.css));
 });
+gulp.task("css-min-themify-icons", () => {
+  return gulp
+    .src(files.src.css.themifyicons)
+    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
+    .pipe(header(banner, { pkg: pkg }))
+    .pipe(rename({ suffix: ".min" }))
+    .pipe(gulp.dest(path.src.css));
+});
 
 gulp.task(
   "css-dev",
@@ -165,7 +191,8 @@ gulp.task(
     gulp.parallel(
       "css-scss-all-icons",
       "css-scss-fontawesome-icons",
-      "css-scss-bootstrap-icons"
+      "css-scss-bootstrap-icons",
+      "css-scss-themify-icons"
     )
   )
 );
@@ -175,7 +202,8 @@ gulp.task(
     gulp.parallel(
       "css-min-all-icons",
       "css-min-fontawesome-icons",
-      "css-min-bootstrap-icons"
+      "css-min-bootstrap-icons",
+      "css-min-themify-icons"
     )
   )
 );

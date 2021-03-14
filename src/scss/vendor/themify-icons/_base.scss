@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "themify-icons";
+  src: url("#{$ti-font-path}themify-icons.eot");
+  src: url("#{$ti-font-path}themify-icons.eot?#iefix") format("eot"),
+    url("#{$ti-font-path}themify-icons.woff") format("woff"),
+    url("#{$ti-font-path}themify-icons.ttf") format("truetype"),
+    url("#{$ti-font-path}themify-icons.svg#themify-icons") format("svg");
+}
+
+.#{$ti-css-prefix} {
+  font-family: "themify-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: none;
+  text-transform: none;
+}
