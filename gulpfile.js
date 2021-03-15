@@ -44,9 +44,11 @@ const files = {
       allicons: path.src.css + "all." + pkgName + ".css",
       bootstrapicons: path.src.css + "bootstrap." + pkgName + ".css",
       cryptoicons: path.src.css + "crypto." + pkgName + ".css",
+      feathericons: path.src.css + "feather." + pkgName + ".css",
       flagicons: path.src.css + "flag." + pkgName + ".css",
       fontawesomeicons: path.src.css + "fontawesome." + pkgName + ".css",
       materialdesignicons: path.src.css + "material-design." + pkgName + ".css",
+      materialicons: path.src.css + "material." + pkgName + ".css",
       simplelineicons: path.src.css + "simple-line." + pkgName + ".css",
       themifyicons: path.src.css + "themify." + pkgName + ".css",
       weathericons: path.src.css + "weather." + pkgName + ".css",
@@ -55,9 +57,11 @@ const files = {
       allicons: path.src.scss + "all-icons.scss",
       bootstrapicons: path.src.scss + "bootstrap-icons.scss",
       cryptoicons: path.src.scss + "crypto-icons.scss",
+      feathericons: path.src.scss + "feather-icons.scss",
       flagicons: path.src.scss + "flag-icons.scss",
       fontawesomeicons: path.src.scss + "fontawesome-icons.scss",
       materialdesignicons: path.src.scss + "material-design-icons.scss",
+      materialicons: path.src.scss + "material-icons.scss",
       simplelineicons: path.src.scss + "simple-line-icons.scss",
       themifyicons: path.src.scss + "themify-icons.scss",
       weathericons: path.src.scss + "weather-icons.scss",
@@ -70,7 +74,7 @@ const files = {
 
 const dependencies = {
   scss: {
-    flagicon: {
+    flagicons: {
       base: path.src.scss + "vendor/flag-icon/",
       src: "node_modules/flag-icon-css/sass/**/*",
       dest: path.src.scss + "vendor/flag-icon/",
@@ -84,6 +88,11 @@ const dependencies = {
       base: path.src.scss + "vendor/material-design-icons/",
       src: "node_modules/@mdi/font/scss/**/*",
       dest: path.src.scss + "vendor/material-design-icons/",
+    },
+    materialicons: {
+      base: path.src.scss + "vendor/material-icons/",
+      src: "node_modules/material-icons/iconfont/*.scss",
+      dest: path.src.scss + "vendor/material-icons/",
     },
     simplelineicons: {
       base: path.src.scss + "vendor/simple-line-icons/",
@@ -102,7 +111,12 @@ const dependencies = {
       src: "node_modules/crypto-icons/fonts/**/*",
       dest: path.src.fonts + "crypto-icons/",
     },
-    flagicon: {
+    feathericons: {
+      base: path.src.fonts + "feather-icons/",
+      src: "node_modules/feather-icons/dist/icons/**/*",
+      dest: path.src.fonts + "feather-icons/",
+    },
+    flagicons: {
       base: path.src.fonts + "flag-icon/",
       src: "node_modules/flag-icon-css/flags/**/*",
       dest: path.src.fonts + "flag-icon/",
@@ -116,6 +130,12 @@ const dependencies = {
       base: path.src.fonts + "material-design-icons/",
       src: "node_modules/@mdi/font/fonts/**/*",
       dest: path.src.fonts + "material-design-icons/",
+    },
+    materialicons: {
+      base: path.src.fonts + "material-icons/",
+      src:
+        "node_modules/material-icons/iconfont/*.{ttf,otf,woff,woff2,eot,svg}",
+      dest: path.src.fonts + "material-icons/",
     },
     simplelineicons: {
       base: path.src.fonts + "simple-line-icons/",
@@ -190,6 +210,17 @@ gulp.task("css-scss-crypto-icons", () => {
     .pipe(rename({ basename: "crypto." + pkgName }))
     .pipe(gulp.dest(path.src.css));
 });
+gulp.task("css-scss-feather-icons", () => {
+  return gulp
+    .src(files.src.scss.feathericons)
+    .pipe(
+      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
+    )
+    .pipe(postcss([autoprefixer()]))
+    .pipe(header(banner, { pkg: pkg }))
+    .pipe(rename({ basename: "feather." + pkgName }))
+    .pipe(gulp.dest(path.src.css));
+});
 gulp.task("css-scss-flag-icons", () => {
   return gulp
     .src(files.src.scss.flagicons)
@@ -221,6 +252,17 @@ gulp.task("css-scss-material-design-icons", () => {
     .pipe(postcss([autoprefixer()]))
     .pipe(header(banner, { pkg: pkg }))
     .pipe(rename({ basename: "material-design." + pkgName }))
+    .pipe(gulp.dest(path.src.css));
+});
+gulp.task("css-scss-material-icons", () => {
+  return gulp
+    .src(files.src.scss.materialicons)
+    .pipe(
+      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
+    )
+    .pipe(postcss([autoprefixer()]))
+    .pipe(header(banner, { pkg: pkg }))
+    .pipe(rename({ basename: "material." + pkgName }))
     .pipe(gulp.dest(path.src.css));
 });
 gulp.task("css-scss-simple-line-icons", () => {
@@ -281,6 +323,14 @@ gulp.task("css-min-crypto-icons", () => {
     .pipe(rename({ suffix: ".min" }))
     .pipe(gulp.dest(path.src.css));
 });
+gulp.task("css-min-feather-icons", () => {
+  return gulp
+    .src(files.src.css.feathericons)
+    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
+    .pipe(header(banner, { pkg: pkg }))
+    .pipe(rename({ suffix: ".min" }))
+    .pipe(gulp.dest(path.src.css));
+});
 gulp.task("css-min-flag-icons", () => {
   return gulp
     .src(files.src.css.flagicons)
@@ -300,6 +350,14 @@ gulp.task("css-min-fontawesome-icons", () => {
 gulp.task("css-min-material-design-icons", () => {
   return gulp
     .src(files.src.css.materialdesignicons)
+    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
+    .pipe(header(banner, { pkg: pkg }))
+    .pipe(rename({ suffix: ".min" }))
+    .pipe(gulp.dest(path.src.css));
+});
+gulp.task("css-min-material-icons", () => {
+  return gulp
+    .src(files.src.css.materialicons)
     .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
     .pipe(header(banner, { pkg: pkg }))
     .pipe(rename({ suffix: ".min" }))
@@ -337,9 +395,11 @@ gulp.task(
       "css-scss-all-icons",
       "css-scss-bootstrap-icons",
       "css-scss-crypto-icons",
+      "css-scss-feather-icons",
       "css-scss-flag-icons",
       "css-scss-fontawesome-icons",
       "css-scss-material-design-icons",
+      "css-scss-material-icons",
       "css-scss-simple-line-icons",
       "css-scss-themify-icons",
       "css-scss-weather-icons"
@@ -353,9 +413,11 @@ gulp.task(
       "css-min-all-icons",
       "css-min-bootstrap-icons",
       "css-min-crypto-icons",
+      "css-min-feather-icons",
       "css-min-flag-icons",
       "css-min-fontawesome-icons",
       "css-min-material-design-icons",
+      "css-min-material-icons",
       "css-min-simple-line-icons",
       "css-min-themify-icons",
       "css-min-weather-icons"

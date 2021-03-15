@@ -1,5 +1,12 @@
 # [Released Note] @adereksisusanto/icons
 
+## [Released v1.0.3]
+
+- Fixed Bugs
+- Add new web fonts
+  - [Feather Icons](https://feathericons.com/)
+  - [Material Icons](https://marella.me/material-icons/demo/)
+
 ## [Released v1.0.2]
 
 - Fixed Bugs

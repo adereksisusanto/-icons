@@ -1,0 +1,22 @@
+.#{$feather-icons-prefix}-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.#{$feather-icons-prefix} {
+  @extend .#{$feather-icons-prefix}-background;
+  position: relative;
+  display: inline-block;
+  width: (4 / 3) * 1em;
+  line-height: 1em;
+  &:before {
+    content: "\00a0";
+  }
+}
+
+@mixin feather-icons($icons) {
+  .#{$feather-icons-prefix}-#{$icons} {
+    background-image: url(#{$feather-icons-path}/#{$icons}.svg);
+  }
+}
