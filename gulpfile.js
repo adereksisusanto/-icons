@@ -47,6 +47,7 @@ const files = {
       feathericons: path.src.css + "feather." + pkgName + ".css",
       flagicons: path.src.css + "flag." + pkgName + ".css",
       fontawesomeicons: path.src.css + "fontawesome." + pkgName + ".css",
+      ionicons: path.src.css + "ion." + pkgName + ".css",
       materialdesignicons: path.src.css + "material-design." + pkgName + ".css",
       materialicons: path.src.css + "material." + pkgName + ".css",
       simplelineicons: path.src.css + "simple-line." + pkgName + ".css",
@@ -60,6 +61,7 @@ const files = {
       feathericons: path.src.scss + "feather-icons.scss",
       flagicons: path.src.scss + "flag-icons.scss",
       fontawesomeicons: path.src.scss + "fontawesome-icons.scss",
+      ionicons: path.src.scss + "ion-icons.scss",
       materialdesignicons: path.src.scss + "material-design-icons.scss",
       materialicons: path.src.scss + "material-icons.scss",
       simplelineicons: path.src.scss + "simple-line-icons.scss",
@@ -125,6 +127,11 @@ const dependencies = {
       base: path.src.fonts + "fontawesome/",
       src: "node_modules/@fortawesome/fontawesome-free/webfonts/**/*",
       dest: path.src.fonts + "fontawesome/",
+    },
+    ionicons: {
+      base: path.src.fonts + "ionicons/",
+      src: "node_modules/ionicons/dist/svg/**/*.svg",
+      dest: path.src.fonts + "ionicons/",
     },
     materialdesignicons: {
       base: path.src.fonts + "material-design-icons/",
@@ -243,6 +250,17 @@ gulp.task("css-scss-fontawesome-icons", () => {
     .pipe(rename({ basename: "fontawesome." + pkgName }))
     .pipe(gulp.dest(path.src.css));
 });
+gulp.task("css-scss-ion-icons", () => {
+  return gulp
+    .src(files.src.scss.ionicons)
+    .pipe(
+      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
+    )
+    .pipe(postcss([autoprefixer()]))
+    .pipe(header(banner, { pkg: pkg }))
+    .pipe(rename({ basename: "ion." + pkgName }))
+    .pipe(gulp.dest(path.src.css));
+});
 gulp.task("css-scss-material-design-icons", () => {
   return gulp
     .src(files.src.scss.materialdesignicons)
@@ -347,6 +365,14 @@ gulp.task("css-min-fontawesome-icons", () => {
     .pipe(rename({ suffix: ".min" }))
     .pipe(gulp.dest(path.src.css));
 });
+gulp.task("css-min-ion-icons", () => {
+  return gulp
+    .src(files.src.css.ionicons)
+    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
+    .pipe(header(banner, { pkg: pkg }))
+    .pipe(rename({ suffix: ".min" }))
+    .pipe(gulp.dest(path.src.css));
+});
 gulp.task("css-min-material-design-icons", () => {
   return gulp
     .src(files.src.css.materialdesignicons)
@@ -398,6 +424,7 @@ gulp.task(
       "css-scss-feather-icons",
       "css-scss-flag-icons",
       "css-scss-fontawesome-icons",
+      "css-scss-ion-icons",
       "css-scss-material-design-icons",
       "css-scss-material-icons",
       "css-scss-simple-line-icons",
@@ -416,6 +443,7 @@ gulp.task(
       "css-min-feather-icons",
       "css-min-flag-icons",
       "css-min-fontawesome-icons",
+      "css-min-ion-icons",
       "css-min-material-design-icons",
       "css-min-material-icons",
       "css-min-simple-line-icons",

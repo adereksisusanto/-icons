@@ -1,0 +1,22 @@
+.#{$ion-icons-prefix}-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.#{$ion-icons-prefix} {
+  @extend .#{$ion-icons-prefix}-background;
+  position: relative;
+  display: inline-block;
+  width: (4 / 3) * 1em;
+  line-height: 1em;
+  &:before {
+    content: "\00a0";
+  }
+}
+
+@mixin ionicons($icons) {
+  .#{$ion-icons-prefix}-#{$icons} {
+    background-image: url(#{$ion-icons-path}/#{$icons}.svg);
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "adereksisusanto/icons",
+  "description": "All Icon From Web Fonts",
+  "version": "1.0.4",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ade Reksi Susanto",
+      "email": "adereksisusanto@gmail.com"
+    }
+  ],
+  "keywords": [
+    "CSS",
+    "SCSS",
+    "Icons",
+    "Bootstrap Icons",
+    "Crypto Icons",
+    "Feather Icons",
+    "Flag Icons",
+    "Fontawesome",
+    "IonIcons",
+    "Material Design Icons",
+    "Material Icons",
+    "Simple Line Icons",
+    "Themify Icons",
+    "Weather Icons"
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {}
+}

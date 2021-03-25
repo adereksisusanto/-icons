@@ -4,9 +4,16 @@
 
 ## Instalation
 
-```bash
-$ npm install @adereksisusanto/icons
-```
+- **Via NPM**
+
+  ```bash
+  $ npm install @adereksisusanto/icons
+  ```
+
+- **Via Composer**
+  ```bash
+  $ composer require adereksisusanto/icons
+  ```
 
 ## Use
 
@@ -16,7 +23,7 @@ $ npm install @adereksisusanto/icons
 
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.3/dist/css/all.icons.min.css"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.4/dist/css/all.icons.min.css"
 />
 
 <!-- Local -->
@@ -33,11 +40,12 @@ $ npm install @adereksisusanto/icons
 | ----------------------------------------------- | :-----------: | :-------------------------------------------------------------: |
 | [Bootstrap Icons](#bootstrap-icons)             |     1.4.0     |          [Read Docs](https://icons.getbootstrap.com/)           |
 | [Crypto Icons](#crypto-icons)                   |    1.0.65     |             [Read Docs](https://guarda.com/coins/)              |
-| [Feather Icons](#feather-icons) [new]           |    4.28.0     |             [Read Docs](https://feathericons.com/)              |
+| [Feather Icons](#feather-icons)                 |    4.28.0     |             [Read Docs](https://feathericons.com/)              |
 | [Flag Icons](#flag-icons)                       |     3.5.0     |            [Read Docs](https://flagicons.lipis.dev/)            |
 | [Fontawesome Free](#fontawesome-free)           |    5.15.2     | [Read Docs](https://fontawesome.com/icons?d=gallery&p=2&m=free) |
+| [Ion Icons](#ion-icons) [new]                   |     5.5.0     |               [Read Docs](https://ionicons.com/)                |
 | [Material Design Icons](#material-design-icons) |    5.9.55     |          [Read Docs](https://materialdesignicons.com/)          |
-| [Material Icons](#material-icons) [new]         |     0.5.4     |      [Read Docs](https://marella.me/material-icons/demo/)       |
+| [Material Icons](#material-icons)               |     0.5.4     |      [Read Docs](https://marella.me/material-icons/demo/)       |
 | [Simple Line Icons](#simple-line-icons)         |     2.5.5     |   [Read Docs](https://thesabbir.github.io/simple-line-icons/)   |
 | [Themify Icons](#themify-icons)                 | 1.0.1-alpha.3 |          [Read Docs](http://themify.me/themify-icons)           |
 | [Weather Icons](#weather-icons)                 |     1.3.2     |    [Read Docs](http://erikflowers.github.io/weather-icons/)     |
@@ -48,7 +56,7 @@ $ npm install @adereksisusanto/icons
 <!-- Online -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.3/dist/css/bootstrap.icons.min.css"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.4/dist/css/bootstrap.icons.min.css"
 />
 
 <!-- Local -->
@@ -67,7 +75,7 @@ $ npm install @adereksisusanto/icons
 <!-- Online -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.3/dist/css/crypto.icons.min.css"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.4/dist/css/crypto.icons.min.css"
 />
 
 <!-- Local -->
@@ -86,7 +94,7 @@ $ npm install @adereksisusanto/icons
 <!-- Online -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.3/dist/css/feather.icons.min.css"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.4/dist/css/feather.icons.min.css"
 />
 
 <!-- Local -->
@@ -105,7 +113,7 @@ $ npm install @adereksisusanto/icons
 <!-- Online -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.3/dist/css/feather.icons.min.css"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.4/dist/css/feather.icons.min.css"
 />
 
 <!-- Local -->
@@ -125,7 +133,7 @@ $ npm install @adereksisusanto/icons
 <!-- Online -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.3/dist/css/fontawesome.icons.min.css"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.4/dist/css/fontawesome.icons.min.css"
 />
 
 <!-- Local -->
@@ -138,13 +146,32 @@ $ npm install @adereksisusanto/icons
 <i class="fab fa-500px"></i>
 ```
 
+### Ion Icons
+
+```html
+<!-- Online -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.4/dist/css/ion.icons.min.css"
+/>
+
+<!-- Local -->
+<link
+  rel="stylesheet"
+  href="node_modules/@adereksisusanto/icons/dist/css/ion.icons.min.css"
+/>
+
+<!-- Use -->
+<i class="ionicons ionicons-accessibility"></i>
+```
+
 ### Material Design Icons
 
 ```html
 <!-- Online -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.3/dist/css/material-design.icons.min.css"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.4/dist/css/material-design.icons.min.css"
 />
 
 <!-- Local -->
@@ -163,7 +190,7 @@ $ npm install @adereksisusanto/icons
 <!-- Online -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.3/dist/css/material.icons.min.css"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.4/dist/css/material.icons.min.css"
 />
 
 <!-- Local -->
@@ -190,7 +217,7 @@ To display outlined, round, sharp and two tone icons, use:
 <!-- Online -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.3/dist/css/simple-line.icons.min.css"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.4/dist/css/simple-line.icons.min.css"
 />
 
 <!-- Local -->
@@ -209,7 +236,7 @@ To display outlined, round, sharp and two tone icons, use:
 <!-- Online -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.3/dist/css/themify.icons.min.css"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.4/dist/css/themify.icons.min.css"
 />
 
 <!-- Local -->
@@ -228,7 +255,7 @@ To display outlined, round, sharp and two tone icons, use:
 <!-- Online -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.3/dist/css/weather.icons.min.css"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.4/dist/css/weather.icons.min.css"
 />
 
 <!-- Local -->
@@ -244,6 +271,7 @@ To display outlined, round, sharp and two tone icons, use:
 ## Change Log
 
 - [Read](https://github.com/adereksisusanto/icons/blob/main/CHANGELOG.md)
+  - [v1.0.4](https://github.com/adereksisusanto/icons/releases/tag/v1.0.4)
   - [v1.0.3](https://github.com/adereksisusanto/icons/releases/tag/v1.0.3)
   - [v1.0.2](https://github.com/adereksisusanto/icons/releases/tag/v1.0.2)
   - [v1.0.1](https://github.com/adereksisusanto/icons/releases/tag/v1.0.1)

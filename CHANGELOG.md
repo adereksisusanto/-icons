@@ -1,4 +1,10 @@
-# [Released Note] @adereksisusanto/icons
+# [Released Note]
+
+## [Released v1.0.4]
+
+- Fixed Bugs
+- Add new web fonts
+  - [Ion Icons](https://ionicons.com/)
 
 ## [Released v1.0.3]
 
