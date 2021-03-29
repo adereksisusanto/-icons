@@ -291,7 +291,7 @@ To display outlined, round, sharp and two tone icons, use:
 ## Change Log
 
 - [Read](https://github.com/adereksisusanto/icons/blob/main/CHANGELOG.md)
-  - [v1.0.5](https://github.com/adereksisusanto/icons/releases/tag/v1.0.6)
+  - [v1.0.6](https://github.com/adereksisusanto/icons/releases/tag/v1.0.6)
   - [v1.0.5](https://github.com/adereksisusanto/icons/releases/tag/v1.0.5)
   - [v1.0.4](https://github.com/adereksisusanto/icons/releases/tag/v1.0.4)
   - [v1.0.3](https://github.com/adereksisusanto/icons/releases/tag/v1.0.3)
