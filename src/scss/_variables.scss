@@ -1,12 +1,37 @@
+// Bootstrap Icons
 $bi-font-path: "../fonts/bootstrap-icons" !default;
+
+// Crypto Icons
 $crypto-icon-path: "../fonts/crypto-icons/" !default;
+
+// Feather Icons
 $feather-icons-path: "../fonts/feather-icons" !default;
+
+// Flag Icons
 $flag-icon-css-path: "../fonts/flag-icon" !default;
+
+// Font Awesome
 $fa-font-path: "../fonts/fontawesome" !default;
+
+// Ion Icons
 $ion-icons-path: "../fonts/ionicons" !default;
+$ion-icons-prefix: ionicon !default;
+
+// Material Design Icons
 $mdi-font-path: "../fonts/material-design-icons" !default;
+$mdi-css-prefix: mdi !default;
+
+// Material Icons
 $material-icons-font-path: "../fonts/material-icons/" !default;
+
+// Simple Line Icons
 $simple-line-font-path: "../fonts/simple-line-icons/" !default;
 $simple-line-icon-prefix: sli- !default;
+
+// Themify Icons
 $ti-font-path: "../fonts/themify-icons/" !default;
-$weather-icons-path: "../fonts/weather-icons";
+$ti-css-prefix: ti !default;
+
+// Weather Icons
+$weather-icons-path: "../fonts/weather-icons" !default;
+$weather-icons-prefix: wi;

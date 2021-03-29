@@ -1,5 +1,10 @@
 # [Released Note]
 
+## [Released v1.0.5]
+
+- Fixed Bugs
+  - All Icons
+
 ## [Released v1.0.4]
 
 - Fixed Bugs
