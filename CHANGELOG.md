@@ -10,6 +10,9 @@
   | [Fontawesome Free](#fontawesome-free) |   v5.15.2    | [v5.15.3](https://www.npmjs.com/package/@fortawesome/fontawesome-free/v/5.15.3) |
   | [Ion Icons](#ion-icons)               |    v5.5.0    |            [v5.5.1](https://www.npmjs.com/package/ionicons/v/5.5.1)             |
 
+- Add new web fonts
+  - [Line Awesome](https://icons8.com/line-awesome)
+
 ## [Released v1.0.5]
 
 - Fixed Bugs

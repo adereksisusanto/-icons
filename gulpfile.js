@@ -48,6 +48,7 @@ const files = {
       flagicons: path.src.css + "flag." + pkgName + ".css",
       fontawesomeicons: path.src.css + "fontawesome." + pkgName + ".css",
       ionicons: path.src.css + "ion." + pkgName + ".css",
+      lineawesome: path.src.css + "lineawesome." + pkgName + ".css",
       materialdesignicons: path.src.css + "material-design." + pkgName + ".css",
       materialicons: path.src.css + "material." + pkgName + ".css",
       simplelineicons: path.src.css + "simple-line." + pkgName + ".css",
@@ -62,6 +63,7 @@ const files = {
       flagicons: path.src.scss + "flag-icons.scss",
       fontawesomeicons: path.src.scss + "fontawesome-icons.scss",
       ionicons: path.src.scss + "ion-icons.scss",
+      lineawesome: path.src.scss + "lineawesome-icons.scss",
       materialdesignicons: path.src.scss + "material-design-icons.scss",
       materialicons: path.src.scss + "material-icons.scss",
       simplelineicons: path.src.scss + "simple-line-icons.scss",
@@ -71,6 +73,104 @@ const files = {
   },
   build: {
     copy: [path.src.css + "**/*.css", path.src.fonts + "**/*.*"],
+  },
+};
+
+const build = {
+  cssDev: {
+    allicons: {
+      src: files.src.scss.allicons,
+      name: "all.",
+    },
+    bootstrapicons: {
+      src: files.src.scss.bootstrapicons,
+      name: "bootstrap.",
+    },
+    cryptoicons: {
+      src: files.src.scss.cryptoicons,
+      name: "crypto.",
+    },
+    feathericons: {
+      src: files.src.scss.feathericons,
+      name: "feather.",
+    },
+    flagicons: {
+      src: files.src.scss.flagicons,
+      name: "flag.",
+    },
+    fontawesomeicons: {
+      src: files.src.scss.fontawesomeicons,
+      name: "fontawesome.",
+    },
+    ionicons: {
+      src: files.src.scss.ionicons,
+      name: "ion.",
+    },
+    lineawesome: {
+      src: files.src.scss.lineawesome,
+      name: "lineawesome.",
+    },
+    materialdesignicons: {
+      src: files.src.scss.materialdesignicons,
+      name: "material-design.",
+    },
+    materialicons: {
+      src: files.src.scss.materialicons,
+      name: "material.",
+    },
+    simplelineicons: {
+      src: files.src.scss.simplelineicons,
+      name: "simple-line.",
+    },
+    themifyicons: {
+      src: files.src.scss.themifyicons,
+      name: "themify.",
+    },
+    weathericons: {
+      src: files.src.scss.weathericons,
+      name: "weather.",
+    },
+  },
+  cssMin: {
+    allicons: {
+      src: files.src.css.allicons,
+    },
+    bootstrapicons: {
+      src: files.src.css.bootstrapicons,
+    },
+    cryptoicons: {
+      src: files.src.css.cryptoicons,
+    },
+    feathericons: {
+      src: files.src.css.feathericons,
+    },
+    flagicons: {
+      src: files.src.css.flagicons,
+    },
+    fontawesomeicons: {
+      src: files.src.css.fontawesomeicons,
+    },
+    ionicons: {
+      src: files.src.css.ionicons,
+    },
+    lineawesome: {
+      src: files.src.css.lineawesome,
+    },
+    materialdesignicons: {
+      src: files.src.css.materialdesignicons,
+    },
+    materialicons: {
+      src: files.src.css.materialicons,
+    },
+    simplelineicons: {
+      src: files.src.css.simplelineicons,
+    },
+    themifyicons: {
+      src: files.src.css.themifyicons,
+    },
+    weathericons: {
+      src: files.src.css.weathericons,
+    },
   },
 };
 
@@ -85,6 +185,11 @@ const dependencies = {
       base: path.src.scss + "vendor/fontawesome/",
       src: "node_modules/@fortawesome/fontawesome-free/scss/**/*",
       dest: path.src.scss + "vendor/fontawesome/",
+    },
+    lineawesome: {
+      base: path.src.scss + "vendor/line-awesome/",
+      src: "node_modules/line-awesome/dist/line-awesome/scss/**/*",
+      dest: path.src.scss + "vendor/line-awesome/",
     },
     materialdesignicons: {
       base: path.src.scss + "vendor/material-design-icons/",
@@ -132,6 +237,11 @@ const dependencies = {
       base: path.src.fonts + "ionicons/",
       src: "node_modules/ionicons/dist/svg/**/*.svg",
       dest: path.src.fonts + "ionicons/",
+    },
+    lineawesome: {
+      base: path.src.fonts + "line-awesome/",
+      src: "node_modules/line-awesome/dist/line-awesome/fonts/**/*",
+      dest: path.src.fonts + "line-awesome/",
     },
     materialdesignicons: {
       base: path.src.fonts + "material-design-icons/",
@@ -184,274 +294,40 @@ gulp.task("dep-fonts", (done) => {
 
 gulp.task("dep-update", gulp.series("dep-scss", "dep-fonts"));
 
-gulp.task("css-scss-all-icons", () => {
+function cssDev(scssCssName, scssCssData) {
   return gulp
-    .src(files.src.scss.allicons)
+    .src(scssCssData.src)
     .pipe(
       sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
     )
     .pipe(postcss([autoprefixer()]))
     .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ basename: "all." + pkgName }))
+    .pipe(rename({ basename: scssCssData.name + pkgName }))
     .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-scss-bootstrap-icons", () => {
-  return gulp
-    .src(files.src.scss.bootstrapicons)
-    .pipe(
-      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer()]))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ basename: "bootstrap." + pkgName }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-scss-crypto-icons", () => {
-  return gulp
-    .src(files.src.scss.cryptoicons)
-    .pipe(
-      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer()]))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ basename: "crypto." + pkgName }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-scss-feather-icons", () => {
-  return gulp
-    .src(files.src.scss.feathericons)
-    .pipe(
-      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer()]))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ basename: "feather." + pkgName }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-scss-flag-icons", () => {
-  return gulp
-    .src(files.src.scss.flagicons)
-    .pipe(
-      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer()]))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ basename: "flag." + pkgName }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-scss-fontawesome-icons", () => {
-  return gulp
-    .src(files.src.scss.fontawesomeicons)
-    .pipe(
-      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer()]))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ basename: "fontawesome." + pkgName }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-scss-ion-icons", () => {
-  return gulp
-    .src(files.src.scss.ionicons)
-    .pipe(
-      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer()]))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ basename: "ion." + pkgName }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-scss-material-design-icons", () => {
-  return gulp
-    .src(files.src.scss.materialdesignicons)
-    .pipe(
-      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer()]))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ basename: "material-design." + pkgName }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-scss-material-icons", () => {
-  return gulp
-    .src(files.src.scss.materialicons)
-    .pipe(
-      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer()]))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ basename: "material." + pkgName }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-scss-simple-line-icons", () => {
-  return gulp
-    .src(files.src.scss.simplelineicons)
-    .pipe(
-      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer()]))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ basename: "simple-line." + pkgName }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-scss-themify-icons", () => {
-  return gulp
-    .src(files.src.scss.themifyicons)
-    .pipe(
-      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer()]))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ basename: "themify." + pkgName }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-scss-weather-icons", () => {
-  return gulp
-    .src(files.src.scss.weathericons)
-    .pipe(
-      sass({ outputStyle: "expanded", precision: 6 }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer()]))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ basename: "weather." + pkgName }))
-    .pipe(gulp.dest(path.src.css));
+}
+gulp.task("css-dev", (done) => {
+  for (const [key, value] of Object.entries(build.cssDev)) {
+    cssDev(key, value);
+  }
+  done();
 });
 
-gulp.task("css-min-all-icons", () => {
+function cssMin(cssMinName, cssMinData) {
   return gulp
-    .src(files.src.css.allicons)
+    .src(cssMinData.src)
     .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
     .pipe(header(banner, { pkg: pkg }))
     .pipe(rename({ suffix: ".min" }))
     .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-min-bootstrap-icons", () => {
-  return gulp
-    .src(files.src.css.bootstrapicons)
-    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-min-crypto-icons", () => {
-  return gulp
-    .src(files.src.css.cryptoicons)
-    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-min-feather-icons", () => {
-  return gulp
-    .src(files.src.css.feathericons)
-    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-min-flag-icons", () => {
-  return gulp
-    .src(files.src.css.flagicons)
-    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-min-fontawesome-icons", () => {
-  return gulp
-    .src(files.src.css.fontawesomeicons)
-    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-min-ion-icons", () => {
-  return gulp
-    .src(files.src.css.ionicons)
-    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-min-material-design-icons", () => {
-  return gulp
-    .src(files.src.css.materialdesignicons)
-    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-min-material-icons", () => {
-  return gulp
-    .src(files.src.css.materialicons)
-    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-min-simple-line-icons", () => {
-  return gulp
-    .src(files.src.css.simplelineicons)
-    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-min-themify-icons", () => {
-  return gulp
-    .src(files.src.css.themifyicons)
-    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(gulp.dest(path.src.css));
-});
-gulp.task("css-min-weather-icons", () => {
-  return gulp
-    .src(files.src.css.weathericons)
-    .pipe(cleanCSS({ level: { 1: { specialComments: 0 } } }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(gulp.dest(path.src.css));
+}
+
+gulp.task("css-min", (done) => {
+  for (const [key, value] of Object.entries(build.cssMin)) {
+    cssMin(key, value);
+  }
+  done();
 });
 
-gulp.task(
-  "css-dev",
-  gulp.series(
-    gulp.parallel(
-      "css-scss-all-icons",
-      "css-scss-bootstrap-icons",
-      "css-scss-crypto-icons",
-      "css-scss-feather-icons",
-      "css-scss-flag-icons",
-      "css-scss-fontawesome-icons",
-      "css-scss-ion-icons",
-      "css-scss-material-design-icons",
-      "css-scss-material-icons",
-      "css-scss-simple-line-icons",
-      "css-scss-themify-icons",
-      "css-scss-weather-icons"
-    )
-  )
-);
-gulp.task(
-  "css-min",
-  gulp.series(
-    gulp.parallel(
-      "css-min-all-icons",
-      "css-min-bootstrap-icons",
-      "css-min-crypto-icons",
-      "css-min-feather-icons",
-      "css-min-flag-icons",
-      "css-min-fontawesome-icons",
-      "css-min-ion-icons",
-      "css-min-material-design-icons",
-      "css-min-material-icons",
-      "css-min-simple-line-icons",
-      "css-min-themify-icons",
-      "css-min-weather-icons"
-    )
-  )
-);
 gulp.task("css", gulp.series(gulp.parallel("css-dev", "css-min")));
 
 gulp.task("build-clean", () => {

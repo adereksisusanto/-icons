@@ -1,7 +1,6 @@
 {
   "name": "adereksisusanto/icons",
   "description": "All Icon From Web Fonts",
-  "version": "1.0.4",
   "license": "MIT",
   "authors": [
     {
@@ -19,6 +18,7 @@
     "Flag Icons",
     "Fontawesome",
     "IonIcons",
+    "Line Awesome",
     "Material Design Icons",
     "Material Icons",
     "Simple Line Icons",

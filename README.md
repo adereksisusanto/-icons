@@ -44,6 +44,7 @@
 | [Flag Icons](#flag-icons)                       |     3.5.0     |            [Read Docs](https://flagicons.lipis.dev/)            |
 | [Fontawesome Free](#fontawesome-free) [Updated] |    5.15.3     | [Read Docs](https://fontawesome.com/icons?d=gallery&p=2&m=free) |
 | [Ion Icons](#ion-icons) [Updated]               |     5.5.1     |               [Read Docs](https://ionicons.com/)                |
+| [Line Awesome](#line-awesome) [New]             |     1.3.0     |          [Read Docs](https://icons8.com/line-awesome)           |
 | [Material Design Icons](#material-design-icons) |    5.9.55     |          [Read Docs](https://materialdesignicons.com/)          |
 | [Material Icons](#material-icons)               |     0.5.4     |      [Read Docs](https://marella.me/material-icons/demo/)       |
 | [Simple Line Icons](#simple-line-icons)         |     2.5.5     |   [Read Docs](https://thesabbir.github.io/simple-line-icons/)   |
@@ -163,6 +164,25 @@
 
 <!-- Use -->
 <i class="ionicons ionicons-accessibility"></i>
+```
+
+### Line Awesome
+
+```html
+<!-- Online -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@adereksisusanto/icons@1.0.6/dist/css/lineawesome.icons.min.css"
+/>
+
+<!-- Local -->
+<link
+  rel="stylesheet"
+  href="node_modules/@adereksisusanto/icons/dist/css/lineawesome.icons.min.css"
+/>
+
+<!-- Use -->
+<i class="las la-battery-three-quarters"></i>
 ```
 
 ### Material Design Icons
