@@ -3,4 +3,6 @@ src/**/*.html
 
 package-lock.json
 /vendor/
+/src/css/
+/src/fonts/
 composer.lock
